@@ -1,0 +1,50 @@
+{
+  "domain": "countries",
+  "facts": [
+    {
+      "entity": "India",
+      "attribute": "capital",
+      "value": "New Delhi",
+      "aliases": ["Delhi"],
+      "source_name": "UN Data",
+      "source_url": "https://data.un.org/CountryProfile.aspx/_CRName/India",
+      "evidence_snippet": "The capital of India is New Delhi"
+    },
+    {
+      "entity": "India",
+      "attribute": "currency",
+      "value": "Indian rupee",
+      "aliases": ["Rupee", "INR"],
+      "source_name": "UN Data",
+      "source_url": "https://data.un.org/CountryProfile.aspx/_CRName/India",
+      "evidence_snippet": "The currency used in India is the Indian rupee (INR)"
+    },
+    {
+      "entity": "India",
+      "attribute": "prime minister",
+      "value": "Narendra Modi",
+      "aliases": ["Modi"],
+      "source_name": "Government of India",
+      "source_url": "https://www.india.gov.in/directory/whos-who/chiefs/details/shri-narendra-modi",
+      "evidence_snippet": "Narendra Modi serves as the Prime Minister of India"
+    },
+    {
+      "entity": "Iran",
+      "attribute": "capital",
+      "value": "Tehran",
+      "aliases": [],
+      "source_name": "UN Data",
+      "source_url": "https://data.un.org/CountryProfile.aspx/_CRName/Iran",
+      "evidence_snippet": "The capital city of Iran is Tehran"
+    },
+    {
+      "entity": "France",
+      "attribute": "capital",
+      "value": "Paris",
+      "aliases": [],
+      "source_name": "UN Data",
+      "source_url": "https://data.un.org/CountryProfile.aspx/_CRName/France",
+      "evidence_snippet": "The capital city of France is Paris"
+    }
+  ]
+}

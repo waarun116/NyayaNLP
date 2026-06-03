@@ -1,0 +1,436 @@
+{
+  "domain": "countries",
+  "dataset_version": "2026-05",
+  "notes": "Geopolitical add-on facts from official government/intergovernmental sources. Existing curated/generated files are unchanged.",
+  "facts": [
+    {
+      "entity": "India",
+      "attribute": "head_of_state, president, head of state of india, president of india",
+      "value": "Droupadi Murmu (President of India, term start 2022)",
+      "aliases": ["President Droupadi Murmu", "Smt. Droupadi Murmu", "Droupadi Murmu", "Droupadi", "Draupadi Murmu", "Draupadi", "Murmu"],
+      "source_name": "President of India",
+      "source_url": "https://presidentofindia.nic.in/Profile",
+      "evidence_snippet": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022."
+    },
+    {
+        "entity": "India",
+  "attribute": "prime minister",
+  "value": "Narendra Modi",
+  "aliases": ["Modi", "Narendra Modi", "PM Modi", "Prime Minister Narendra Modi", "P.M. Modi",  "Prime Minister of India", "PM of India","Narendra Damodardas Modi"],
+  "source_name": "Government of India",
+  "source_url": "https://www.pmindia.gov.in/",
+  "evidence_snippet": "Narendra Modi is the Prime Minister of India"
+},
+    {
+      "entity": "India",
+      "attribute": "head_of_government",
+      "value": "Narendra Modi (Prime Minister, term start 2014)",
+      "aliases": ["Prime Minister Narendra Modi", "Narendra Damodardas Modi", "Modi", "Narendra Modi"],
+      "source_name": "Government of India",
+      "source_url": "https://www.india.gov.in/my-government/whos-who/prime-minister",
+      "evidence_snippet": "Shri Narendra Modi serves as the Prime Minister of India."
+    },
+
+   {
+      "entity": "India",
+      "attribute": "pm",
+      "value": "Narendra Modi (Prime Minister, term start 2014)",
+      "aliases": ["Prime Minister Narendra Modi", "Narendra Damodardas Modi", "Modi", "Narendra Modi"],
+      "source_name": "Government of India",
+      "source_url": "https://www.india.gov.in/my-government/whos-who/prime-minister",
+      "evidence_snippet": "Shri Narendra Modi serves as the Prime Minister of India."
+    },
+
+    {
+      "entity": "India",
+      "attribute": "active_disputes",
+      "value": "Jammu and Kashmir ceasefire-line dispute context monitored by UNMOGIP",
+      "aliases": ["Kashmir dispute", "India-Pakistan Line of Control dispute"],
+      "source_name": "United Nations Peacekeeping",
+      "source_url": "https://peacekeeping.un.org/en/mission/unmogip",
+      "evidence_snippet": "UNMOGIP was established to observe the ceasefire in Jammu and Kashmir between India and Pakistan."
+    },
+    {
+      "entity": "United States",
+      "attribute": "head_of_state, president, head of state of united states, president of united states",
+      "value": "Donald J. Trump (President of the United States, inaugurated 2025)",
+      "aliases": ["President Donald Trump", "Donald Trump", "Trump"],
+      "source_name": "The White House",
+      "source_url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+      "evidence_snippet": "Donald J. Trump is serving as the 45th and 47th President of the United States."
+    },
+    {
+      "entity": "United States",
+      "attribute": "head_of_government",
+      "value": "Donald J. Trump (President; combined head of state and government)",
+      "aliases": ["President Donald Trump"],
+      "source_name": "The White House",
+      "source_url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+      "evidence_snippet": "Donald J. Trump is serving as President of the United States."
+    },
+    {
+      "entity": "United States",
+      "attribute": "geopolitical_memberships",
+      "value": "UN Security Council permanent member (P5)",
+      "aliases": ["UNSC P5", "Permanent member of Security Council"],
+      "source_name": "United Nations Security Council",
+      "source_url": "https://main.un.org/securitycouncil/en/content/security-council-members-0",
+      "evidence_snippet": "The Security Council has five permanent members: China, France, Russian Federation, United Kingdom and United States."
+    },
+    {
+      "entity": "United States",
+      "attribute": "geopolitical_memberships",
+      "value": "NATO member state",
+      "aliases": ["North Atlantic Treaty Organization member"],
+      "source_name": "NATO",
+      "source_url": "https://www.nato.int/cps/en/natohq/topics_52044.htm?pubDate=20250717",
+      "evidence_snippet": "NATO member countries include the United States."
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "head_of_state",
+      "value": "King Charles III (Monarch, accession 2022)",
+      "aliases": ["Charles III", "His Majesty The King"],
+      "source_name": "The Royal Family",
+      "source_url": "https://www.royal.uk/the-king",
+      "evidence_snippet": "King Charles III became King on 8 September 2022."
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "head_of_government",
+      "value": "Keir Starmer (Prime Minister, term start 2024)",
+      "aliases": ["Sir Keir Starmer", "The Rt Hon Sir Keir Starmer KCB KC MP", "Starmer", "Keir"],
+      "source_name": "GOV.UK",
+      "source_url": "https://www.gov.uk/government/ministers/prime-minister",
+      "evidence_snippet": "Sir Keir Starmer became Prime Minister on 5 July 2024."
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "geopolitical_memberships",
+      "value": "UN Security Council permanent member (P5)",
+      "aliases": ["UNSC P5"],
+      "source_name": "United Nations Security Council",
+      "source_url": "https://main.un.org/securitycouncil/en/content/security-council-members-0",
+      "evidence_snippet": "The permanent members are China, France, Russian Federation, United Kingdom and United States."
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "geopolitical_memberships",
+      "value": "NATO member state",
+      "aliases": ["NATO member"],
+      "source_name": "NATO",
+      "source_url": "https://www.nato.int/cps/en/natohq/topics_52044.htm?pubDate=20250717",
+      "evidence_snippet": "NATO member countries include the United Kingdom."
+    },
+    {
+  "entity": "Hungary",
+  "attribute": "prime minister",
+  "value": "Péter Magyar (Prime Minister, term start 2026-05-09)",
+  "aliases": [
+    "Prime Minister Péter Magyar",
+    "Péter Magyar",
+    "Magyar Péter"
+  ],
+  "source_name": "Hungarian Parliament / Reuters",
+  "source_url": "https://www.reuters.com/world/magyar-sworn-hungarys-prime-minister-promises-change-2026-05-09/",
+  "evidence_snippet": "Peter Magyar was sworn in as Hungary's new prime minister on May 9, 2026."
+},
+    {
+      "entity": "Germany",
+      "attribute": "head_of_government",
+      "value": "Friedrich Merz (Federal Chancellor, term start 2025)",
+      "aliases": ["Federal Chancellor Merz", "Bundeskanzler Friedrich Merz"],
+      "source_name": "German Federal Government",
+      "source_url": "https://www.bundesregierung.de/breg-en/news/friedrich-merz-2341938",
+      "evidence_snippet": "Friedrich Merz is the Federal Chancellor and took office on 6 May 2025."
+    },
+    {
+      "entity": "Germany",
+      "attribute": "geopolitical_memberships",
+      "value": "European Union member state",
+      "aliases": ["EU member"],
+      "source_name": "European Union",
+      "source_url": "https://european-union.europa.eu/principles-countries-history/country-profiles_en",
+      "evidence_snippet": "Germany is listed among the 27 EU Member States."
+    },
+    {
+      "entity": "Germany",
+      "attribute": "geopolitical_memberships",
+      "value": "NATO member state",
+      "aliases": ["NATO member"],
+      "source_name": "NATO",
+      "source_url": "https://www.nato.int/cps/en/natohq/topics_52044.htm?pubDate=20250717",
+      "evidence_snippet": "NATO member countries include Germany."
+    },
+    {
+      "entity": "Japan",
+      "attribute": "head_of_government",
+      "value": "Shigeru Ishiba (Prime Minister)",
+      "aliases": ["ISHIBA Shigeru"],
+      "source_name": "Prime Minister's Office of Japan",
+      "source_url": "https://japan.kantei.go.jp/103/meibo/daijin/ishiba_shigeru_e.html",
+      "evidence_snippet": "ISHIBA Shigeru is listed in the Cabinet of the Prime Minister of Japan."
+    },
+    {
+      "entity": "Japan",
+      "attribute": "capital",
+      "value": "Tokyo",
+      "aliases": ["Tokyo Metropolis"],
+      "source_name": "Prime Minister's Office of Japan",
+      "source_url": "https://japan.kantei.go.jp/",
+      "evidence_snippet": "The Prime Minister's Office of Japan is in Tokyo."
+    },
+    {
+      "entity": "Brazil",
+      "attribute": "head_of_government",
+      "value": "Luiz Inacio Lula da Silva (President; combined head of state and government)",
+      "aliases": ["President Lula", "Lula da Silva"],
+      "source_name": "Government of Brazil",
+      "source_url": "https://www.gov.br/pt-br/orgaos/presidencia-da-republica",
+      "evidence_snippet": "A Presidencia da Republica identifies Luiz Inacio Lula da Silva as Presidente da Republica."
+    },
+    {
+      "entity": "Brazil",
+      "attribute": "capital",
+      "value": "Brasilia",
+      "aliases": [],
+      "source_name": "Government of Brazil",
+      "source_url": "https://www.gov.br/planalto/pt-br",
+      "evidence_snippet": "Planalto federal executive headquarters is located in Brasilia."
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "head_of_state",
+      "value": "Cyril Ramaphosa (President, in office since 2018; re-elected 2024)",
+      "aliases": ["President Ramaphosa", "Matamela Cyril Ramaphosa"],
+      "source_name": "South African Government",
+      "source_url": "https://www.gov.za/about-government/contact-directory/presidency/matamela-cyril-ramaphosa-mr",
+      "evidence_snippet": "President Cyril Ramaphosa was appointed President on 15 February 2018 and re-elected in 2024."
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "head_of_government",
+      "value": "Cyril Ramaphosa (President; combined head of state and government)",
+      "aliases": ["President Ramaphosa"],
+      "source_name": "The Presidency of South Africa",
+      "source_url": "https://thepresidency.gov.za/node/5284",
+      "evidence_snippet": "Cyril Ramaphosa serves as President of the Republic of South Africa."
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "geopolitical_memberships",
+      "value": "African Union member state",
+      "aliases": ["AU member"],
+      "source_name": "African Union",
+      "source_url": "https://au.int/ar/node/3678",
+      "evidence_snippet": "South Africa is included in the African Union member states list."
+    },
+    {
+      "entity": "South Korea",
+      "attribute": "head_of_state",
+      "value": "Lee Jae Myung (President of the Republic of Korea)",
+      "aliases": ["President Lee Jae Myung"],
+      "source_name": "Office of the President of the Republic of Korea",
+      "source_url": "https://eng.president.go.kr/profile",
+      "evidence_snippet": "Lee Jae Myung is presented as the President of the Republic of Korea on the official presidential site."
+    },
+    {
+      "entity": "South Korea",
+      "attribute": "head_of_government",
+      "value": "Lee Jae Myung (President; combined head of state and government)",
+      "aliases": ["President Lee Jae Myung"],
+      "source_name": "Office of the President of the Republic of Korea",
+      "source_url": "https://www.president.go.kr/president/greeting",
+      "evidence_snippet": "The presidential office introduces Lee Jae Myung as the current President."
+    },
+    {
+      "entity": "Australia",
+      "attribute": "head_of_state",
+      "value": "King Charles III (represented by Governor-General Sam Mostyn since 2024)",
+      "aliases": ["King Charles III", "Governor-General Sam Mostyn"],
+      "source_name": "Governor-General of Australia",
+      "source_url": "https://www.gg.gov.au/about-governor-general/governor-generals-biography",
+      "evidence_snippet": "Sam Mostyn was sworn in as the 28th Governor-General of Australia on 1 July 2024."
+    },
+    {
+      "entity": "Australia",
+      "attribute": "head_of_government",
+      "value": "Anthony Albanese (Prime Minister, term start 2022)",
+      "aliases": ["Prime Minister Albanese"],
+      "source_name": "Prime Minister of Australia",
+      "source_url": "https://www.pm.gov.au/your-pm",
+      "evidence_snippet": "Anthony Albanese is Australia's 31st Prime Minister, sworn in on 23 May 2022."
+    },
+    {
+      "entity": "Australia",
+      "attribute": "capital",
+      "value": "Canberra",
+      "aliases": [],
+      "source_name": "Prime Minister of Australia",
+      "source_url": "https://www.pm.gov.au/",
+      "evidence_snippet": "The Prime Minister's official web resources are based in Canberra, Australia's federal capital."
+    },
+    {
+      "entity": "Indonesia",
+      "attribute": "geopolitical_memberships",
+      "value": "ASEAN member state",
+      "aliases": ["Association of Southeast Asian Nations member"],
+      "source_name": "ASEAN",
+      "source_url": "https://asean.org/member-states",
+      "evidence_snippet": "Indonesia is listed among ASEAN member states."
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "geopolitical_memberships",
+      "value": "ASEAN member state",
+      "aliases": ["ASEAN member"],
+      "source_name": "ASEAN",
+      "source_url": "https://asean.org/member-states",
+      "evidence_snippet": "Myanmar is listed among ASEAN member states."
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "transitional_status",
+      "value": "Military authorities in control since 2021 coup; democratic civilian transition urged by UN",
+      "aliases": ["post-coup governance", "military rule"],
+      "source_name": "United Nations",
+      "source_url": "https://press.un.org/en/2024/sgsm22123.doc.htm",
+      "evidence_snippet": "The Secretary-General underscores urgency of a path towards democratic transition and civilian rule in Myanmar."
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "de_facto_leader",
+      "value": "State Administration Council military leadership (Senior General Min Aung Hlaing)",
+      "aliases": ["military junta", "SAC leadership"],
+      "source_name": "United Nations News",
+      "source_url": "https://news.un.org/en/story/2025/01/1159641",
+      "evidence_snippet": "UN reporting describes the military authorities retaining control and calls for return to civilian rule."
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "transitional_status",
+      "value": "Civilian transition process derailed by SAF-RSF conflict from April 2023",
+      "aliases": ["conflict-era transitional crisis", "post-coup transition breakdown"],
+      "source_name": "United Nations News",
+      "source_url": "https://news.un.org/en/story/2023/04/1136187",
+      "evidence_snippet": "Fighting erupted between the Sudanese Armed Forces and the Rapid Support Forces, derailing transition efforts."
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "de_facto_leader",
+      "value": "Competing military leadership (SAF and RSF command structures)",
+      "aliases": ["SAF-RSF power contest"],
+      "source_name": "UN Security Council Press Statement",
+      "source_url": "https://press.un.org/2023/sc15305.doc.htm",
+      "evidence_snippet": "The Security Council addresses fighting between SAF and RSF and the need for de-escalation."
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "geopolitical_memberships",
+      "value": "African Union member state",
+      "aliases": ["AU member"],
+      "source_name": "African Union",
+      "source_url": "https://au.int/ar/node/3678",
+      "evidence_snippet": "Sudan is listed among African Union member states."
+    },
+    {
+      "entity": "Morocco",
+      "attribute": "active_disputes",
+      "value": "Western Sahara status dispute under UN process (MINURSO mandate)",
+      "aliases": ["Western Sahara dispute"],
+      "source_name": "United Nations Peacekeeping",
+      "source_url": "https://peacekeeping.un.org/en/mission/minurso",
+      "evidence_snippet": "MINURSO was established in relation to settlement proposals for Western Sahara and referendum arrangements."
+    },
+    {
+      "entity": "Cyprus",
+      "attribute": "active_disputes",
+      "value": "Cyprus conflict unresolved; UN buffer-zone peacekeeping remains active",
+      "aliases": ["Cyprus division", "Greek Cypriot-Turkish Cypriot dispute"],
+      "source_name": "United Nations Peacekeeping",
+      "source_url": "https://peacekeeping.un.org/en/mission/unficyp",
+      "evidence_snippet": "In the absence of a political settlement to the Cyprus problem, UNFICYP remains on the island."
+    },
+    {
+      "entity": "France",
+      "attribute": "geopolitical_memberships",
+      "value": "UN Security Council permanent member (P5)",
+      "aliases": ["UNSC P5"],
+      "source_name": "United Nations Security Council",
+      "source_url": "https://main.un.org/securitycouncil/en/content/security-council-members-0",
+      "evidence_snippet": "France is listed among the five permanent members of the Security Council."
+    },
+    {
+      "entity": "France",
+      "attribute": "geopolitical_memberships",
+      "value": "European Union member state",
+      "aliases": ["EU member"],
+      "source_name": "European Union",
+      "source_url": "https://european-union.europa.eu/principles-countries-history/country-profiles_en",
+      "evidence_snippet": "France appears in the list of EU Member States."
+    },
+    {
+      "entity": "France",
+      "attribute": "geopolitical_memberships",
+      "value": "NATO member state",
+      "aliases": ["NATO member"],
+      "source_name": "NATO",
+      "source_url": "https://www.nato.int/cps/en/natohq/topics_52044.htm?pubDate=20250717",
+      "evidence_snippet": "NATO member countries include France."
+    },
+    {
+      "entity": "China",
+      "attribute": "geopolitical_memberships",
+      "value": "UN Security Council permanent member (P5)",
+      "aliases": ["UNSC P5", "PRC permanent member"],
+      "source_name": "United Nations Security Council",
+      "source_url": "https://main.un.org/securitycouncil/en/content/security-council-members-0",
+      "evidence_snippet": "China is one of the five permanent members of the Security Council."
+    },
+    {
+      "entity": "Russia",
+      "attribute": "geopolitical_memberships",
+      "value": "UN Security Council permanent member (P5)",
+      "aliases": ["Russian Federation UNSC permanent member"],
+      "source_name": "United Nations Security Council",
+      "source_url": "https://main.un.org/securitycouncil/en/content/security-council-members-0",
+      "evidence_snippet": "The Russian Federation is listed among the permanent Security Council members."
+    },
+    {
+      "entity": "Nigeria",
+      "attribute": "geopolitical_memberships",
+      "value": "African Union member state",
+      "aliases": ["AU member"],
+      "source_name": "African Union",
+      "source_url": "https://au.int/ar/node/3678",
+      "evidence_snippet": "Nigeria is included in the AU member state list."
+    },
+    {
+      "entity": "Egypt",
+      "attribute": "geopolitical_memberships",
+      "value": "African Union member state",
+      "aliases": ["AU member"],
+      "source_name": "African Union",
+      "source_url": "https://au.int/ar/node/3678",
+      "evidence_snippet": "Egypt is included in the AU member state list."
+    },
+    {
+      "entity": "Vietnam",
+      "attribute": "geopolitical_memberships",
+      "value": "ASEAN member state",
+      "aliases": ["Viet Nam ASEAN member"],
+      "source_name": "ASEAN",
+      "source_url": "https://asean.org/member-states",
+      "evidence_snippet": "Viet Nam is listed among ASEAN member states."
+    },
+    {
+      "entity": "Thailand",
+      "attribute": "geopolitical_memberships",
+      "value": "ASEAN member state",
+      "aliases": ["ASEAN member"],
+      "source_name": "ASEAN",
+      "source_url": "https://asean.org/member-states",
+      "evidence_snippet": "Thailand is listed among ASEAN member states."
+    }
+  ]
+}

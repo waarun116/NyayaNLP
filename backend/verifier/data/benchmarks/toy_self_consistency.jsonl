@@ -1,0 +1,3 @@
+{"id":"s1","question":"What is the capital of France?","responses":["The capital of France is Paris.","Paris is the capital of France.","The capital of France is Lyon."],"expected_response_verified":true}
+{"id":"s2","question":"Tell me about the Moon.","responses":["The Moon is made of cheese.","The Moon orbits Earth every 27.3 days.","The Moon is made of cheese. It orbits Earth every 27.3 days."],"expected_response_verified":false}
+

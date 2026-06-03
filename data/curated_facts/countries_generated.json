@@ -1,0 +1,5296 @@
+{
+  "domain": "countries",
+  "generated_from": "https://restcountries.com/v3.1/all",
+  "facts": [
+    {
+      "entity": "Denmark",
+      "attribute": "capital",
+      "value": "Copenhagen",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Denmark",
+      "evidence_snippet": "The capital of Denmark is Copenhagen"
+    },
+    {
+      "entity": "Denmark",
+      "attribute": "population",
+      "value": "6011488",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Denmark",
+      "evidence_snippet": "The population of Denmark is 6011488"
+    },
+    {
+      "entity": "Denmark",
+      "attribute": "currency",
+      "value": "DKK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Denmark",
+      "evidence_snippet": "The currency code of Denmark is DKK"
+    },
+    {
+      "entity": "Sri Lanka",
+      "attribute": "capital",
+      "value": "Sri Jayawardenepura Kotte",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sri%20Lanka",
+      "evidence_snippet": "The capital of Sri Lanka is Sri Jayawardenepura Kotte"
+    },
+    {
+      "entity": "Sri Lanka",
+      "attribute": "population",
+      "value": "21763170",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sri%20Lanka",
+      "evidence_snippet": "The population of Sri Lanka is 21763170"
+    },
+    {
+      "entity": "Sri Lanka",
+      "attribute": "currency",
+      "value": "LKR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sri%20Lanka",
+      "evidence_snippet": "The currency code of Sri Lanka is LKR"
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "capital",
+      "value": "Pretoria",
+      "aliases": [
+        "Bloemfontein",
+        "Cape Town"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Africa",
+      "evidence_snippet": "The capital of South Africa is Pretoria"
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "population",
+      "value": "63100945",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Africa",
+      "evidence_snippet": "The population of South Africa is 63100945"
+    },
+    {
+      "entity": "South Africa",
+      "attribute": "currency",
+      "value": "ZAR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Africa",
+      "evidence_snippet": "The currency code of South Africa is ZAR"
+    },
+    {
+      "entity": "Bahrain",
+      "attribute": "capital",
+      "value": "Manama",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahrain",
+      "evidence_snippet": "The capital of Bahrain is Manama"
+    },
+    {
+      "entity": "Bahrain",
+      "attribute": "population",
+      "value": "1594654",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahrain",
+      "evidence_snippet": "The population of Bahrain is 1594654"
+    },
+    {
+      "entity": "Bahrain",
+      "attribute": "currency",
+      "value": "BHD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahrain",
+      "evidence_snippet": "The currency code of Bahrain is BHD"
+    },
+    {
+      "entity": "North Macedonia",
+      "attribute": "capital",
+      "value": "Skopje",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Macedonia",
+      "evidence_snippet": "The capital of North Macedonia is Skopje"
+    },
+    {
+      "entity": "North Macedonia",
+      "attribute": "population",
+      "value": "1822612",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Macedonia",
+      "evidence_snippet": "The population of North Macedonia is 1822612"
+    },
+    {
+      "entity": "North Macedonia",
+      "attribute": "currency",
+      "value": "MKD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Macedonia",
+      "evidence_snippet": "The currency code of North Macedonia is MKD"
+    },
+    {
+      "entity": "Equatorial Guinea",
+      "attribute": "capital",
+      "value": "Ciudad de la Paz",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Equatorial%20Guinea",
+      "evidence_snippet": "The capital of Equatorial Guinea is Ciudad de la Paz"
+    },
+    {
+      "entity": "Equatorial Guinea",
+      "attribute": "population",
+      "value": "1668768",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Equatorial%20Guinea",
+      "evidence_snippet": "The population of Equatorial Guinea is 1668768"
+    },
+    {
+      "entity": "Equatorial Guinea",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Equatorial%20Guinea",
+      "evidence_snippet": "The currency code of Equatorial Guinea is XAF"
+    },
+    {
+      "entity": "Cyprus",
+      "attribute": "capital",
+      "value": "Nicosia",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cyprus",
+      "evidence_snippet": "The capital of Cyprus is Nicosia"
+    },
+    {
+      "entity": "Cyprus",
+      "attribute": "population",
+      "value": "1442614",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cyprus",
+      "evidence_snippet": "The population of Cyprus is 1442614"
+    },
+    {
+      "entity": "Cyprus",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cyprus",
+      "evidence_snippet": "The currency code of Cyprus is EUR"
+    },
+    {
+      "entity": "Mauritius",
+      "attribute": "capital",
+      "value": "Port Louis",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritius",
+      "evidence_snippet": "The capital of Mauritius is Port Louis"
+    },
+    {
+      "entity": "Mauritius",
+      "attribute": "population",
+      "value": "1243741",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritius",
+      "evidence_snippet": "The population of Mauritius is 1243741"
+    },
+    {
+      "entity": "Mauritius",
+      "attribute": "currency",
+      "value": "MUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritius",
+      "evidence_snippet": "The currency code of Mauritius is MUR"
+    },
+    {
+      "entity": "Nauru",
+      "attribute": "capital",
+      "value": "Yaren",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nauru",
+      "evidence_snippet": "The capital of Nauru is Yaren"
+    },
+    {
+      "entity": "Nauru",
+      "attribute": "population",
+      "value": "11680",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nauru",
+      "evidence_snippet": "The population of Nauru is 11680"
+    },
+    {
+      "entity": "Nauru",
+      "attribute": "currency",
+      "value": "AUD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nauru",
+      "evidence_snippet": "The currency code of Nauru is AUD"
+    },
+    {
+      "entity": "Austria",
+      "attribute": "capital",
+      "value": "Vienna",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Austria",
+      "evidence_snippet": "The capital of Austria is Vienna"
+    },
+    {
+      "entity": "Austria",
+      "attribute": "population",
+      "value": "9200931",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Austria",
+      "evidence_snippet": "The population of Austria is 9200931"
+    },
+    {
+      "entity": "Austria",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Austria",
+      "evidence_snippet": "The currency code of Austria is EUR"
+    },
+    {
+      "entity": "San Marino",
+      "attribute": "capital",
+      "value": "City of San Marino",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/San%20Marino",
+      "evidence_snippet": "The capital of San Marino is City of San Marino"
+    },
+    {
+      "entity": "San Marino",
+      "attribute": "population",
+      "value": "34132",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/San%20Marino",
+      "evidence_snippet": "The population of San Marino is 34132"
+    },
+    {
+      "entity": "San Marino",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/San%20Marino",
+      "evidence_snippet": "The currency code of San Marino is EUR"
+    },
+    {
+      "entity": "Montenegro",
+      "attribute": "capital",
+      "value": "Podgorica",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Montenegro",
+      "evidence_snippet": "The capital of Montenegro is Podgorica"
+    },
+    {
+      "entity": "Montenegro",
+      "attribute": "population",
+      "value": "623327",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Montenegro",
+      "evidence_snippet": "The population of Montenegro is 623327"
+    },
+    {
+      "entity": "Montenegro",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Montenegro",
+      "evidence_snippet": "The currency code of Montenegro is EUR"
+    },
+    {
+      "entity": "Haiti",
+      "attribute": "capital",
+      "value": "Port-au-Prince",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Haiti",
+      "evidence_snippet": "The capital of Haiti is Port-au-Prince"
+    },
+    {
+      "entity": "Haiti",
+      "attribute": "population",
+      "value": "11867032",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Haiti",
+      "evidence_snippet": "The population of Haiti is 11867032"
+    },
+    {
+      "entity": "Haiti",
+      "attribute": "currency",
+      "value": "HTG",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Haiti",
+      "evidence_snippet": "The currency code of Haiti is HTG"
+    },
+    {
+      "entity": "Sweden",
+      "attribute": "capital",
+      "value": "Stockholm",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sweden",
+      "evidence_snippet": "The capital of Sweden is Stockholm"
+    },
+    {
+      "entity": "Sweden",
+      "attribute": "population",
+      "value": "10605098",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sweden",
+      "evidence_snippet": "The population of Sweden is 10605098"
+    },
+    {
+      "entity": "Sweden",
+      "attribute": "currency",
+      "value": "SEK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sweden",
+      "evidence_snippet": "The currency code of Sweden is SEK"
+    },
+    {
+      "entity": "Lesotho",
+      "attribute": "capital",
+      "value": "Maseru",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lesotho",
+      "evidence_snippet": "The capital of Lesotho is Maseru"
+    },
+    {
+      "entity": "Lesotho",
+      "attribute": "population",
+      "value": "2116427",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lesotho",
+      "evidence_snippet": "The population of Lesotho is 2116427"
+    },
+    {
+      "entity": "Lesotho",
+      "attribute": "currency",
+      "value": "LSL",
+      "aliases": [
+        "ZAR"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lesotho",
+      "evidence_snippet": "The currency code of Lesotho is LSL"
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "capital",
+      "value": "Khartoum",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sudan",
+      "evidence_snippet": "The capital of Sudan is Khartoum"
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "population",
+      "value": "51662000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sudan",
+      "evidence_snippet": "The population of Sudan is 51662000"
+    },
+    {
+      "entity": "Sudan",
+      "attribute": "currency",
+      "value": "SDG",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sudan",
+      "evidence_snippet": "The currency code of Sudan is SDG"
+    },
+    {
+      "entity": "Italy",
+      "attribute": "capital",
+      "value": "Rome",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Italy",
+      "evidence_snippet": "The capital of Italy is Rome"
+    },
+    {
+      "entity": "Italy",
+      "attribute": "population",
+      "value": "58927633",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Italy",
+      "evidence_snippet": "The population of Italy is 58927633"
+    },
+    {
+      "entity": "Italy",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Italy",
+      "evidence_snippet": "The currency code of Italy is EUR"
+    },
+    {
+      "entity": "North Korea",
+      "attribute": "capital",
+      "value": "Pyongyang",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Korea",
+      "evidence_snippet": "The capital of North Korea is Pyongyang"
+    },
+    {
+      "entity": "North Korea",
+      "attribute": "population",
+      "value": "25950000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Korea",
+      "evidence_snippet": "The population of North Korea is 25950000"
+    },
+    {
+      "entity": "North Korea",
+      "attribute": "currency",
+      "value": "KPW",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/North%20Korea",
+      "evidence_snippet": "The currency code of North Korea is KPW"
+    },
+    {
+      "entity": "Ivory Coast",
+      "attribute": "capital",
+      "value": "Yamoussoukro",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ivory%20Coast",
+      "evidence_snippet": "The capital of Ivory Coast is Yamoussoukro"
+    },
+    {
+      "entity": "Ivory Coast",
+      "attribute": "population",
+      "value": "31719275",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ivory%20Coast",
+      "evidence_snippet": "The population of Ivory Coast is 31719275"
+    },
+    {
+      "entity": "Ivory Coast",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ivory%20Coast",
+      "evidence_snippet": "The currency code of Ivory Coast is XOF"
+    },
+    {
+      "entity": "Guinea",
+      "attribute": "capital",
+      "value": "Conakry",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea",
+      "evidence_snippet": "The capital of Guinea is Conakry"
+    },
+    {
+      "entity": "Guinea",
+      "attribute": "population",
+      "value": "14363931",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea",
+      "evidence_snippet": "The population of Guinea is 14363931"
+    },
+    {
+      "entity": "Guinea",
+      "attribute": "currency",
+      "value": "GNF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea",
+      "evidence_snippet": "The currency code of Guinea is GNF"
+    },
+    {
+      "entity": "Saint Lucia",
+      "attribute": "capital",
+      "value": "Castries",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Lucia",
+      "evidence_snippet": "The capital of Saint Lucia is Castries"
+    },
+    {
+      "entity": "Saint Lucia",
+      "attribute": "population",
+      "value": "184100",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Lucia",
+      "evidence_snippet": "The population of Saint Lucia is 184100"
+    },
+    {
+      "entity": "Saint Lucia",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Lucia",
+      "evidence_snippet": "The currency code of Saint Lucia is XCD"
+    },
+    {
+      "entity": "Botswana",
+      "attribute": "capital",
+      "value": "Gaborone",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Botswana",
+      "evidence_snippet": "The capital of Botswana is Gaborone"
+    },
+    {
+      "entity": "Botswana",
+      "attribute": "population",
+      "value": "2359609",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Botswana",
+      "evidence_snippet": "The population of Botswana is 2359609"
+    },
+    {
+      "entity": "Botswana",
+      "attribute": "currency",
+      "value": "BWP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Botswana",
+      "evidence_snippet": "The currency code of Botswana is BWP"
+    },
+    {
+      "entity": "Indonesia",
+      "attribute": "capital",
+      "value": "Jakarta",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Indonesia",
+      "evidence_snippet": "The capital of Indonesia is Jakarta"
+    },
+    {
+      "entity": "Indonesia",
+      "attribute": "population",
+      "value": "284438782",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Indonesia",
+      "evidence_snippet": "The population of Indonesia is 284438782"
+    },
+    {
+      "entity": "Indonesia",
+      "attribute": "currency",
+      "value": "IDR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Indonesia",
+      "evidence_snippet": "The currency code of Indonesia is IDR"
+    },
+    {
+      "entity": "Philippines",
+      "attribute": "capital",
+      "value": "Manila",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Philippines",
+      "evidence_snippet": "The capital of Philippines is Manila"
+    },
+    {
+      "entity": "Philippines",
+      "attribute": "population",
+      "value": "114123600",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Philippines",
+      "evidence_snippet": "The population of Philippines is 114123600"
+    },
+    {
+      "entity": "Philippines",
+      "attribute": "currency",
+      "value": "PHP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Philippines",
+      "evidence_snippet": "The currency code of Philippines is PHP"
+    },
+    {
+      "entity": "United Arab Emirates",
+      "attribute": "capital",
+      "value": "Abu Dhabi",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Arab%20Emirates",
+      "evidence_snippet": "The capital of United Arab Emirates is Abu Dhabi"
+    },
+    {
+      "entity": "United Arab Emirates",
+      "attribute": "population",
+      "value": "11294243",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Arab%20Emirates",
+      "evidence_snippet": "The population of United Arab Emirates is 11294243"
+    },
+    {
+      "entity": "United Arab Emirates",
+      "attribute": "currency",
+      "value": "AED",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Arab%20Emirates",
+      "evidence_snippet": "The currency code of United Arab Emirates is AED"
+    },
+    {
+      "entity": "Paraguay",
+      "attribute": "capital",
+      "value": "Asunción",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Paraguay",
+      "evidence_snippet": "The capital of Paraguay is Asunción"
+    },
+    {
+      "entity": "Paraguay",
+      "attribute": "population",
+      "value": "6109644",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Paraguay",
+      "evidence_snippet": "The population of Paraguay is 6109644"
+    },
+    {
+      "entity": "Paraguay",
+      "attribute": "currency",
+      "value": "PYG",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Paraguay",
+      "evidence_snippet": "The currency code of Paraguay is PYG"
+    },
+    {
+      "entity": "Mauritania",
+      "attribute": "capital",
+      "value": "Nouakchott",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritania",
+      "evidence_snippet": "The capital of Mauritania is Nouakchott"
+    },
+    {
+      "entity": "Mauritania",
+      "attribute": "population",
+      "value": "4927532",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritania",
+      "evidence_snippet": "The population of Mauritania is 4927532"
+    },
+    {
+      "entity": "Mauritania",
+      "attribute": "currency",
+      "value": "MRU",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mauritania",
+      "evidence_snippet": "The currency code of Mauritania is MRU"
+    },
+    {
+      "entity": "Niger",
+      "attribute": "capital",
+      "value": "Niamey",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Niger",
+      "evidence_snippet": "The capital of Niger is Niamey"
+    },
+    {
+      "entity": "Niger",
+      "attribute": "population",
+      "value": "26312034",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Niger",
+      "evidence_snippet": "The population of Niger is 26312034"
+    },
+    {
+      "entity": "Niger",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Niger",
+      "evidence_snippet": "The currency code of Niger is XOF"
+    },
+    {
+      "entity": "Switzerland",
+      "attribute": "capital",
+      "value": "Bern",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Switzerland",
+      "evidence_snippet": "The capital of Switzerland is Bern"
+    },
+    {
+      "entity": "Switzerland",
+      "attribute": "population",
+      "value": "9082848",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Switzerland",
+      "evidence_snippet": "The population of Switzerland is 9082848"
+    },
+    {
+      "entity": "Switzerland",
+      "attribute": "currency",
+      "value": "CHF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Switzerland",
+      "evidence_snippet": "The currency code of Switzerland is CHF"
+    },
+    {
+      "entity": "Argentina",
+      "attribute": "capital",
+      "value": "Buenos Aires",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Argentina",
+      "evidence_snippet": "The capital of Argentina is Buenos Aires"
+    },
+    {
+      "entity": "Argentina",
+      "attribute": "population",
+      "value": "46735004",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Argentina",
+      "evidence_snippet": "The population of Argentina is 46735004"
+    },
+    {
+      "entity": "Argentina",
+      "attribute": "currency",
+      "value": "ARS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Argentina",
+      "evidence_snippet": "The currency code of Argentina is ARS"
+    },
+    {
+      "entity": "Guinea-Bissau",
+      "attribute": "capital",
+      "value": "Bissau",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea-Bissau",
+      "evidence_snippet": "The capital of Guinea-Bissau is Bissau"
+    },
+    {
+      "entity": "Guinea-Bissau",
+      "attribute": "population",
+      "value": "1781308",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea-Bissau",
+      "evidence_snippet": "The population of Guinea-Bissau is 1781308"
+    },
+    {
+      "entity": "Guinea-Bissau",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guinea-Bissau",
+      "evidence_snippet": "The currency code of Guinea-Bissau is XOF"
+    },
+    {
+      "entity": "Nepal",
+      "attribute": "capital",
+      "value": "Kathmandu",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nepal",
+      "evidence_snippet": "The capital of Nepal is Kathmandu"
+    },
+    {
+      "entity": "Nepal",
+      "attribute": "population",
+      "value": "29911840",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nepal",
+      "evidence_snippet": "The population of Nepal is 29911840"
+    },
+    {
+      "entity": "Nepal",
+      "attribute": "currency",
+      "value": "NPR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nepal",
+      "evidence_snippet": "The currency code of Nepal is NPR"
+    },
+    {
+      "entity": "Belize",
+      "attribute": "capital",
+      "value": "Belmopan",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belize",
+      "evidence_snippet": "The capital of Belize is Belmopan"
+    },
+    {
+      "entity": "Belize",
+      "attribute": "population",
+      "value": "417634",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belize",
+      "evidence_snippet": "The population of Belize is 417634"
+    },
+    {
+      "entity": "Belize",
+      "attribute": "currency",
+      "value": "BZD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belize",
+      "evidence_snippet": "The currency code of Belize is BZD"
+    },
+    {
+      "entity": "Barbados",
+      "attribute": "capital",
+      "value": "Bridgetown",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Barbados",
+      "evidence_snippet": "The capital of Barbados is Bridgetown"
+    },
+    {
+      "entity": "Barbados",
+      "attribute": "population",
+      "value": "267800",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Barbados",
+      "evidence_snippet": "The population of Barbados is 267800"
+    },
+    {
+      "entity": "Barbados",
+      "attribute": "currency",
+      "value": "BBD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Barbados",
+      "evidence_snippet": "The currency code of Barbados is BBD"
+    },
+    {
+      "entity": "Costa Rica",
+      "attribute": "capital",
+      "value": "San José",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Costa%20Rica",
+      "evidence_snippet": "The capital of Costa Rica is San José"
+    },
+    {
+      "entity": "Costa Rica",
+      "attribute": "population",
+      "value": "5309625",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Costa%20Rica",
+      "evidence_snippet": "The population of Costa Rica is 5309625"
+    },
+    {
+      "entity": "Costa Rica",
+      "attribute": "currency",
+      "value": "CRC",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Costa%20Rica",
+      "evidence_snippet": "The currency code of Costa Rica is CRC"
+    },
+    {
+      "entity": "Cuba",
+      "attribute": "capital",
+      "value": "Havana",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cuba",
+      "evidence_snippet": "The capital of Cuba is Havana"
+    },
+    {
+      "entity": "Cuba",
+      "attribute": "population",
+      "value": "9748007",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cuba",
+      "evidence_snippet": "The population of Cuba is 9748007"
+    },
+    {
+      "entity": "Cuba",
+      "attribute": "currency",
+      "value": "CUC",
+      "aliases": [
+        "CUP"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cuba",
+      "evidence_snippet": "The currency code of Cuba is CUC"
+    },
+    {
+      "entity": "Nigeria",
+      "attribute": "capital",
+      "value": "Abuja",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nigeria",
+      "evidence_snippet": "The capital of Nigeria is Abuja"
+    },
+    {
+      "entity": "Nigeria",
+      "attribute": "population",
+      "value": "223800000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nigeria",
+      "evidence_snippet": "The population of Nigeria is 223800000"
+    },
+    {
+      "entity": "Nigeria",
+      "attribute": "currency",
+      "value": "NGN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nigeria",
+      "evidence_snippet": "The currency code of Nigeria is NGN"
+    },
+    {
+      "entity": "Oman",
+      "attribute": "capital",
+      "value": "Muscat",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Oman",
+      "evidence_snippet": "The capital of Oman is Muscat"
+    },
+    {
+      "entity": "Oman",
+      "attribute": "population",
+      "value": "5343630",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Oman",
+      "evidence_snippet": "The population of Oman is 5343630"
+    },
+    {
+      "entity": "Oman",
+      "attribute": "currency",
+      "value": "OMR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Oman",
+      "evidence_snippet": "The currency code of Oman is OMR"
+    },
+    {
+      "entity": "Brazil",
+      "attribute": "capital",
+      "value": "Brasília",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brazil",
+      "evidence_snippet": "The capital of Brazil is Brasília"
+    },
+    {
+      "entity": "Brazil",
+      "attribute": "population",
+      "value": "213421037",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brazil",
+      "evidence_snippet": "The population of Brazil is 213421037"
+    },
+    {
+      "entity": "Brazil",
+      "attribute": "currency",
+      "value": "BRL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brazil",
+      "evidence_snippet": "The currency code of Brazil is BRL"
+    },
+    {
+      "entity": "El Salvador",
+      "attribute": "capital",
+      "value": "San Salvador",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/El%20Salvador",
+      "evidence_snippet": "The capital of El Salvador is San Salvador"
+    },
+    {
+      "entity": "El Salvador",
+      "attribute": "population",
+      "value": "6029976",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/El%20Salvador",
+      "evidence_snippet": "The population of El Salvador is 6029976"
+    },
+    {
+      "entity": "El Salvador",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/El%20Salvador",
+      "evidence_snippet": "The currency code of El Salvador is USD"
+    },
+    {
+      "entity": "Suriname",
+      "attribute": "capital",
+      "value": "Paramaribo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Suriname",
+      "evidence_snippet": "The capital of Suriname is Paramaribo"
+    },
+    {
+      "entity": "Suriname",
+      "attribute": "population",
+      "value": "616500",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Suriname",
+      "evidence_snippet": "The population of Suriname is 616500"
+    },
+    {
+      "entity": "Suriname",
+      "attribute": "currency",
+      "value": "SRD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Suriname",
+      "evidence_snippet": "The currency code of Suriname is SRD"
+    },
+    {
+      "entity": "Slovenia",
+      "attribute": "capital",
+      "value": "Ljubljana",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovenia",
+      "evidence_snippet": "The capital of Slovenia is Ljubljana"
+    },
+    {
+      "entity": "Slovenia",
+      "attribute": "population",
+      "value": "2130638",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovenia",
+      "evidence_snippet": "The population of Slovenia is 2130638"
+    },
+    {
+      "entity": "Slovenia",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovenia",
+      "evidence_snippet": "The currency code of Slovenia is EUR"
+    },
+    {
+      "entity": "Bosnia and Herzegovina",
+      "attribute": "capital",
+      "value": "Sarajevo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bosnia%20and%20Herzegovina",
+      "evidence_snippet": "The capital of Bosnia and Herzegovina is Sarajevo"
+    },
+    {
+      "entity": "Bosnia and Herzegovina",
+      "attribute": "population",
+      "value": "3422000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bosnia%20and%20Herzegovina",
+      "evidence_snippet": "The population of Bosnia and Herzegovina is 3422000"
+    },
+    {
+      "entity": "Bosnia and Herzegovina",
+      "attribute": "currency",
+      "value": "BAM",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bosnia%20and%20Herzegovina",
+      "evidence_snippet": "The currency code of Bosnia and Herzegovina is BAM"
+    },
+    {
+      "entity": "Chad",
+      "attribute": "capital",
+      "value": "N'Djamena",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chad",
+      "evidence_snippet": "The capital of Chad is N'Djamena"
+    },
+    {
+      "entity": "Chad",
+      "attribute": "population",
+      "value": "19340757",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chad",
+      "evidence_snippet": "The population of Chad is 19340757"
+    },
+    {
+      "entity": "Chad",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chad",
+      "evidence_snippet": "The currency code of Chad is XAF"
+    },
+    {
+      "entity": "Peru",
+      "attribute": "capital",
+      "value": "Lima",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Peru",
+      "evidence_snippet": "The capital of Peru is Lima"
+    },
+    {
+      "entity": "Peru",
+      "attribute": "population",
+      "value": "34350244",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Peru",
+      "evidence_snippet": "The population of Peru is 34350244"
+    },
+    {
+      "entity": "Peru",
+      "attribute": "currency",
+      "value": "PEN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Peru",
+      "evidence_snippet": "The currency code of Peru is PEN"
+    },
+    {
+      "entity": "United States",
+      "attribute": "capital",
+      "value": "Washington, D.C.",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20States",
+      "evidence_snippet": "The capital of United States is Washington, D.C."
+    },
+    {
+      "entity": "United States",
+      "attribute": "population",
+      "value": "340110988",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20States",
+      "evidence_snippet": "The population of United States is 340110988"
+    },
+    {
+      "entity": "United States",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20States",
+      "evidence_snippet": "The currency code of United States is USD"
+    },
+    {
+      "entity": "Canada",
+      "attribute": "capital",
+      "value": "Ottawa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Canada",
+      "evidence_snippet": "The capital of Canada is Ottawa"
+    },
+    {
+      "entity": "Canada",
+      "attribute": "population",
+      "value": "41651653",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Canada",
+      "evidence_snippet": "The population of Canada is 41651653"
+    },
+    {
+      "entity": "Canada",
+      "attribute": "currency",
+      "value": "CAD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Canada",
+      "evidence_snippet": "The currency code of Canada is CAD"
+    },
+    {
+      "entity": "Jordan",
+      "attribute": "capital",
+      "value": "Amman",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jordan",
+      "evidence_snippet": "The capital of Jordan is Amman"
+    },
+    {
+      "entity": "Jordan",
+      "attribute": "population",
+      "value": "11734000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jordan",
+      "evidence_snippet": "The population of Jordan is 11734000"
+    },
+    {
+      "entity": "Jordan",
+      "attribute": "currency",
+      "value": "JOD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jordan",
+      "evidence_snippet": "The currency code of Jordan is JOD"
+    },
+    {
+      "entity": "Rwanda",
+      "attribute": "capital",
+      "value": "Kigali",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Rwanda",
+      "evidence_snippet": "The capital of Rwanda is Kigali"
+    },
+    {
+      "entity": "Rwanda",
+      "attribute": "population",
+      "value": "14104969",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Rwanda",
+      "evidence_snippet": "The population of Rwanda is 14104969"
+    },
+    {
+      "entity": "Rwanda",
+      "attribute": "currency",
+      "value": "RWF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Rwanda",
+      "evidence_snippet": "The currency code of Rwanda is RWF"
+    },
+    {
+      "entity": "Latvia",
+      "attribute": "capital",
+      "value": "Riga",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Latvia",
+      "evidence_snippet": "The capital of Latvia is Riga"
+    },
+    {
+      "entity": "Latvia",
+      "attribute": "population",
+      "value": "1829000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Latvia",
+      "evidence_snippet": "The population of Latvia is 1829000"
+    },
+    {
+      "entity": "Latvia",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Latvia",
+      "evidence_snippet": "The currency code of Latvia is EUR"
+    },
+    {
+      "entity": "Ghana",
+      "attribute": "capital",
+      "value": "Accra",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ghana",
+      "evidence_snippet": "The capital of Ghana is Accra"
+    },
+    {
+      "entity": "Ghana",
+      "attribute": "population",
+      "value": "33742380",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ghana",
+      "evidence_snippet": "The population of Ghana is 33742380"
+    },
+    {
+      "entity": "Ghana",
+      "attribute": "currency",
+      "value": "GHS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ghana",
+      "evidence_snippet": "The currency code of Ghana is GHS"
+    },
+    {
+      "entity": "Kiribati",
+      "attribute": "capital",
+      "value": "South Tarawa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kiribati",
+      "evidence_snippet": "The capital of Kiribati is South Tarawa"
+    },
+    {
+      "entity": "Kiribati",
+      "attribute": "population",
+      "value": "120740",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kiribati",
+      "evidence_snippet": "The population of Kiribati is 120740"
+    },
+    {
+      "entity": "Kiribati",
+      "attribute": "currency",
+      "value": "AUD",
+      "aliases": [
+        "KID"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kiribati",
+      "evidence_snippet": "The currency code of Kiribati is AUD"
+    },
+    {
+      "entity": "Comoros",
+      "attribute": "capital",
+      "value": "Moroni",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Comoros",
+      "evidence_snippet": "The capital of Comoros is Moroni"
+    },
+    {
+      "entity": "Comoros",
+      "attribute": "population",
+      "value": "919901",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Comoros",
+      "evidence_snippet": "The population of Comoros is 919901"
+    },
+    {
+      "entity": "Comoros",
+      "attribute": "currency",
+      "value": "KMF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Comoros",
+      "evidence_snippet": "The currency code of Comoros is KMF"
+    },
+    {
+      "entity": "São Tomé and Príncipe",
+      "attribute": "capital",
+      "value": "São Tomé",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe",
+      "evidence_snippet": "The capital of São Tomé and Príncipe is São Tomé"
+    },
+    {
+      "entity": "São Tomé and Príncipe",
+      "attribute": "population",
+      "value": "209607",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe",
+      "evidence_snippet": "The population of São Tomé and Príncipe is 209607"
+    },
+    {
+      "entity": "São Tomé and Príncipe",
+      "attribute": "currency",
+      "value": "STN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe",
+      "evidence_snippet": "The currency code of São Tomé and Príncipe is STN"
+    },
+    {
+      "entity": "Moldova",
+      "attribute": "capital",
+      "value": "Chișinău",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Moldova",
+      "evidence_snippet": "The capital of Moldova is Chișinău"
+    },
+    {
+      "entity": "Moldova",
+      "attribute": "population",
+      "value": "2749076",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Moldova",
+      "evidence_snippet": "The population of Moldova is 2749076"
+    },
+    {
+      "entity": "Moldova",
+      "attribute": "currency",
+      "value": "MDL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Moldova",
+      "evidence_snippet": "The currency code of Moldova is MDL"
+    },
+    {
+      "entity": "Bulgaria",
+      "attribute": "capital",
+      "value": "Sofia",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bulgaria",
+      "evidence_snippet": "The capital of Bulgaria is Sofia"
+    },
+    {
+      "entity": "Bulgaria",
+      "attribute": "population",
+      "value": "6437360",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bulgaria",
+      "evidence_snippet": "The population of Bulgaria is 6437360"
+    },
+    {
+      "entity": "Bulgaria",
+      "attribute": "currency",
+      "value": "BGN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bulgaria",
+      "evidence_snippet": "The currency code of Bulgaria is BGN"
+    },
+    {
+      "entity": "Tajikistan",
+      "attribute": "capital",
+      "value": "Dushanbe",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tajikistan",
+      "evidence_snippet": "The capital of Tajikistan is Dushanbe"
+    },
+    {
+      "entity": "Tajikistan",
+      "attribute": "population",
+      "value": "10499000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tajikistan",
+      "evidence_snippet": "The population of Tajikistan is 10499000"
+    },
+    {
+      "entity": "Tajikistan",
+      "attribute": "currency",
+      "value": "TJS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tajikistan",
+      "evidence_snippet": "The currency code of Tajikistan is TJS"
+    },
+    {
+      "entity": "Samoa",
+      "attribute": "capital",
+      "value": "Apia",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Samoa",
+      "evidence_snippet": "The capital of Samoa is Apia"
+    },
+    {
+      "entity": "Samoa",
+      "attribute": "population",
+      "value": "205557",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Samoa",
+      "evidence_snippet": "The population of Samoa is 205557"
+    },
+    {
+      "entity": "Samoa",
+      "attribute": "currency",
+      "value": "WST",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Samoa",
+      "evidence_snippet": "The currency code of Samoa is WST"
+    },
+    {
+      "entity": "Belgium",
+      "attribute": "capital",
+      "value": "Brussels",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belgium",
+      "evidence_snippet": "The capital of Belgium is Brussels"
+    },
+    {
+      "entity": "Belgium",
+      "attribute": "population",
+      "value": "11825551",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belgium",
+      "evidence_snippet": "The population of Belgium is 11825551"
+    },
+    {
+      "entity": "Belgium",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belgium",
+      "evidence_snippet": "The currency code of Belgium is EUR"
+    },
+    {
+      "entity": "Sierra Leone",
+      "attribute": "capital",
+      "value": "Freetown",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sierra%20Leone",
+      "evidence_snippet": "The capital of Sierra Leone is Freetown"
+    },
+    {
+      "entity": "Sierra Leone",
+      "attribute": "population",
+      "value": "9077691",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sierra%20Leone",
+      "evidence_snippet": "The population of Sierra Leone is 9077691"
+    },
+    {
+      "entity": "Sierra Leone",
+      "attribute": "currency",
+      "value": "SLE",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Sierra%20Leone",
+      "evidence_snippet": "The currency code of Sierra Leone is SLE"
+    },
+    {
+      "entity": "Iceland",
+      "attribute": "capital",
+      "value": "Reykjavik",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iceland",
+      "evidence_snippet": "The capital of Iceland is Reykjavik"
+    },
+    {
+      "entity": "Iceland",
+      "attribute": "population",
+      "value": "391810",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iceland",
+      "evidence_snippet": "The population of Iceland is 391810"
+    },
+    {
+      "entity": "Iceland",
+      "attribute": "currency",
+      "value": "ISK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iceland",
+      "evidence_snippet": "The currency code of Iceland is ISK"
+    },
+    {
+      "entity": "Vietnam",
+      "attribute": "capital",
+      "value": "Hanoi",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vietnam",
+      "evidence_snippet": "The capital of Vietnam is Hanoi"
+    },
+    {
+      "entity": "Vietnam",
+      "attribute": "population",
+      "value": "101343800",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vietnam",
+      "evidence_snippet": "The population of Vietnam is 101343800"
+    },
+    {
+      "entity": "Vietnam",
+      "attribute": "currency",
+      "value": "VND",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vietnam",
+      "evidence_snippet": "The currency code of Vietnam is VND"
+    },
+    {
+      "entity": "Lebanon",
+      "attribute": "capital",
+      "value": "Beirut",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lebanon",
+      "evidence_snippet": "The capital of Lebanon is Beirut"
+    },
+    {
+      "entity": "Lebanon",
+      "attribute": "population",
+      "value": "5490000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lebanon",
+      "evidence_snippet": "The population of Lebanon is 5490000"
+    },
+    {
+      "entity": "Lebanon",
+      "attribute": "currency",
+      "value": "LBP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lebanon",
+      "evidence_snippet": "The currency code of Lebanon is LBP"
+    },
+    {
+      "entity": "Ethiopia",
+      "attribute": "capital",
+      "value": "Addis Ababa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ethiopia",
+      "evidence_snippet": "The capital of Ethiopia is Addis Ababa"
+    },
+    {
+      "entity": "Ethiopia",
+      "attribute": "population",
+      "value": "111652998",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ethiopia",
+      "evidence_snippet": "The population of Ethiopia is 111652998"
+    },
+    {
+      "entity": "Ethiopia",
+      "attribute": "currency",
+      "value": "ETB",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ethiopia",
+      "evidence_snippet": "The currency code of Ethiopia is ETB"
+    },
+    {
+      "entity": "Yemen",
+      "attribute": "capital",
+      "value": "Sana'a",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Yemen",
+      "evidence_snippet": "The capital of Yemen is Sana'a"
+    },
+    {
+      "entity": "Yemen",
+      "attribute": "population",
+      "value": "32684503",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Yemen",
+      "evidence_snippet": "The population of Yemen is 32684503"
+    },
+    {
+      "entity": "Yemen",
+      "attribute": "currency",
+      "value": "YER",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Yemen",
+      "evidence_snippet": "The currency code of Yemen is YER"
+    },
+    {
+      "entity": "Russia",
+      "attribute": "capital",
+      "value": "Moscow",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Russia",
+      "evidence_snippet": "The capital of Russia is Moscow"
+    },
+    {
+      "entity": "Russia",
+      "attribute": "population",
+      "value": "146028325",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Russia",
+      "evidence_snippet": "The population of Russia is 146028325"
+    },
+    {
+      "entity": "Russia",
+      "attribute": "currency",
+      "value": "RUB",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Russia",
+      "evidence_snippet": "The currency code of Russia is RUB"
+    },
+    {
+      "entity": "Central African Republic",
+      "attribute": "capital",
+      "value": "Bangui",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Central%20African%20Republic",
+      "evidence_snippet": "The capital of Central African Republic is Bangui"
+    },
+    {
+      "entity": "Central African Republic",
+      "attribute": "population",
+      "value": "6470307",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Central%20African%20Republic",
+      "evidence_snippet": "The population of Central African Republic is 6470307"
+    },
+    {
+      "entity": "Central African Republic",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Central%20African%20Republic",
+      "evidence_snippet": "The currency code of Central African Republic is XAF"
+    },
+    {
+      "entity": "Djibouti",
+      "attribute": "capital",
+      "value": "Djibouti",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Djibouti",
+      "evidence_snippet": "The capital of Djibouti is Djibouti"
+    },
+    {
+      "entity": "Djibouti",
+      "attribute": "population",
+      "value": "1066809",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Djibouti",
+      "evidence_snippet": "The population of Djibouti is 1066809"
+    },
+    {
+      "entity": "Djibouti",
+      "attribute": "currency",
+      "value": "DJF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Djibouti",
+      "evidence_snippet": "The currency code of Djibouti is DJF"
+    },
+    {
+      "entity": "South Sudan",
+      "attribute": "capital",
+      "value": "Juba",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Sudan",
+      "evidence_snippet": "The capital of South Sudan is Juba"
+    },
+    {
+      "entity": "South Sudan",
+      "attribute": "population",
+      "value": "15786898",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Sudan",
+      "evidence_snippet": "The population of South Sudan is 15786898"
+    },
+    {
+      "entity": "South Sudan",
+      "attribute": "currency",
+      "value": "SSP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Sudan",
+      "evidence_snippet": "The currency code of South Sudan is SSP"
+    },
+    {
+      "entity": "Ukraine",
+      "attribute": "capital",
+      "value": "Kyiv",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ukraine",
+      "evidence_snippet": "The capital of Ukraine is Kyiv"
+    },
+    {
+      "entity": "Ukraine",
+      "attribute": "population",
+      "value": "32862000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ukraine",
+      "evidence_snippet": "The population of Ukraine is 32862000"
+    },
+    {
+      "entity": "Ukraine",
+      "attribute": "currency",
+      "value": "UAH",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ukraine",
+      "evidence_snippet": "The currency code of Ukraine is UAH"
+    },
+    {
+      "entity": "Bangladesh",
+      "attribute": "capital",
+      "value": "Dhaka",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bangladesh",
+      "evidence_snippet": "The capital of Bangladesh is Dhaka"
+    },
+    {
+      "entity": "Bangladesh",
+      "attribute": "population",
+      "value": "169828911",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bangladesh",
+      "evidence_snippet": "The population of Bangladesh is 169828911"
+    },
+    {
+      "entity": "Bangladesh",
+      "attribute": "currency",
+      "value": "BDT",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bangladesh",
+      "evidence_snippet": "The currency code of Bangladesh is BDT"
+    },
+    {
+      "entity": "DR Congo",
+      "attribute": "capital",
+      "value": "Kinshasa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/DR%20Congo",
+      "evidence_snippet": "The capital of DR Congo is Kinshasa"
+    },
+    {
+      "entity": "DR Congo",
+      "attribute": "population",
+      "value": "112832000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/DR%20Congo",
+      "evidence_snippet": "The population of DR Congo is 112832000"
+    },
+    {
+      "entity": "DR Congo",
+      "attribute": "currency",
+      "value": "CDF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/DR%20Congo",
+      "evidence_snippet": "The currency code of DR Congo is CDF"
+    },
+    {
+      "entity": "Uzbekistan",
+      "attribute": "capital",
+      "value": "Tashkent",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uzbekistan",
+      "evidence_snippet": "The capital of Uzbekistan is Tashkent"
+    },
+    {
+      "entity": "Uzbekistan",
+      "attribute": "population",
+      "value": "37859698",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uzbekistan",
+      "evidence_snippet": "The population of Uzbekistan is 37859698"
+    },
+    {
+      "entity": "Uzbekistan",
+      "attribute": "currency",
+      "value": "UZS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uzbekistan",
+      "evidence_snippet": "The currency code of Uzbekistan is UZS"
+    },
+    {
+      "entity": "Estonia",
+      "attribute": "capital",
+      "value": "Tallinn",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Estonia",
+      "evidence_snippet": "The capital of Estonia is Tallinn"
+    },
+    {
+      "entity": "Estonia",
+      "attribute": "population",
+      "value": "1369995",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Estonia",
+      "evidence_snippet": "The population of Estonia is 1369995"
+    },
+    {
+      "entity": "Estonia",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Estonia",
+      "evidence_snippet": "The currency code of Estonia is EUR"
+    },
+    {
+      "entity": "Algeria",
+      "attribute": "capital",
+      "value": "Algiers",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Algeria",
+      "evidence_snippet": "The capital of Algeria is Algiers"
+    },
+    {
+      "entity": "Algeria",
+      "attribute": "population",
+      "value": "47400000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Algeria",
+      "evidence_snippet": "The population of Algeria is 47400000"
+    },
+    {
+      "entity": "Algeria",
+      "attribute": "currency",
+      "value": "DZD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Algeria",
+      "evidence_snippet": "The currency code of Algeria is DZD"
+    },
+    {
+      "entity": "Tonga",
+      "attribute": "capital",
+      "value": "Nuku'alofa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tonga",
+      "evidence_snippet": "The capital of Tonga is Nuku'alofa"
+    },
+    {
+      "entity": "Tonga",
+      "attribute": "population",
+      "value": "100179",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tonga",
+      "evidence_snippet": "The population of Tonga is 100179"
+    },
+    {
+      "entity": "Tonga",
+      "attribute": "currency",
+      "value": "TOP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tonga",
+      "evidence_snippet": "The currency code of Tonga is TOP"
+    },
+    {
+      "entity": "Japan",
+      "attribute": "capital",
+      "value": "Tokyo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Japan",
+      "evidence_snippet": "The capital of Japan is Tokyo"
+    },
+    {
+      "entity": "Japan",
+      "attribute": "population",
+      "value": "123210000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Japan",
+      "evidence_snippet": "The population of Japan is 123210000"
+    },
+    {
+      "entity": "Japan",
+      "attribute": "currency",
+      "value": "JPY",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Japan",
+      "evidence_snippet": "The currency code of Japan is JPY"
+    },
+    {
+      "entity": "Timor-Leste",
+      "attribute": "capital",
+      "value": "Dili",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Timor-Leste",
+      "evidence_snippet": "The capital of Timor-Leste is Dili"
+    },
+    {
+      "entity": "Timor-Leste",
+      "attribute": "population",
+      "value": "1391221",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Timor-Leste",
+      "evidence_snippet": "The population of Timor-Leste is 1391221"
+    },
+    {
+      "entity": "Timor-Leste",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Timor-Leste",
+      "evidence_snippet": "The currency code of Timor-Leste is USD"
+    },
+    {
+      "entity": "Czechia",
+      "attribute": "capital",
+      "value": "Prague",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Czechia",
+      "evidence_snippet": "The capital of Czechia is Prague"
+    },
+    {
+      "entity": "Czechia",
+      "attribute": "population",
+      "value": "10882341",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Czechia",
+      "evidence_snippet": "The population of Czechia is 10882341"
+    },
+    {
+      "entity": "Czechia",
+      "attribute": "currency",
+      "value": "CZK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Czechia",
+      "evidence_snippet": "The currency code of Czechia is CZK"
+    },
+    {
+      "entity": "Dominican Republic",
+      "attribute": "capital",
+      "value": "Santo Domingo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominican%20Republic",
+      "evidence_snippet": "The capital of Dominican Republic is Santo Domingo"
+    },
+    {
+      "entity": "Dominican Republic",
+      "attribute": "population",
+      "value": "10771504",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominican%20Republic",
+      "evidence_snippet": "The population of Dominican Republic is 10771504"
+    },
+    {
+      "entity": "Dominican Republic",
+      "attribute": "currency",
+      "value": "DOP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominican%20Republic",
+      "evidence_snippet": "The currency code of Dominican Republic is DOP"
+    },
+    {
+      "entity": "Mongolia",
+      "attribute": "capital",
+      "value": "Ulan Bator",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mongolia",
+      "evidence_snippet": "The capital of Mongolia is Ulan Bator"
+    },
+    {
+      "entity": "Mongolia",
+      "attribute": "population",
+      "value": "3544835",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mongolia",
+      "evidence_snippet": "The population of Mongolia is 3544835"
+    },
+    {
+      "entity": "Mongolia",
+      "attribute": "currency",
+      "value": "MNT",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mongolia",
+      "evidence_snippet": "The currency code of Mongolia is MNT"
+    },
+    {
+      "entity": "Pakistan",
+      "attribute": "capital",
+      "value": "Islamabad",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Pakistan",
+      "evidence_snippet": "The capital of Pakistan is Islamabad"
+    },
+    {
+      "entity": "Pakistan",
+      "attribute": "population",
+      "value": "241499431",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Pakistan",
+      "evidence_snippet": "The population of Pakistan is 241499431"
+    },
+    {
+      "entity": "Pakistan",
+      "attribute": "currency",
+      "value": "PKR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Pakistan",
+      "evidence_snippet": "The currency code of Pakistan is PKR"
+    },
+    {
+      "entity": "Malta",
+      "attribute": "capital",
+      "value": "Valletta",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malta",
+      "evidence_snippet": "The capital of Malta is Valletta"
+    },
+    {
+      "entity": "Malta",
+      "attribute": "population",
+      "value": "574250",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malta",
+      "evidence_snippet": "The population of Malta is 574250"
+    },
+    {
+      "entity": "Malta",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malta",
+      "evidence_snippet": "The currency code of Malta is EUR"
+    },
+    {
+      "entity": "Maldives",
+      "attribute": "capital",
+      "value": "Malé",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Maldives",
+      "evidence_snippet": "The capital of Maldives is Malé"
+    },
+    {
+      "entity": "Maldives",
+      "attribute": "population",
+      "value": "515132",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Maldives",
+      "evidence_snippet": "The population of Maldives is 515132"
+    },
+    {
+      "entity": "Maldives",
+      "attribute": "currency",
+      "value": "MVR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Maldives",
+      "evidence_snippet": "The currency code of Maldives is MVR"
+    },
+    {
+      "entity": "Ireland",
+      "attribute": "capital",
+      "value": "Dublin",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ireland",
+      "evidence_snippet": "The capital of Ireland is Dublin"
+    },
+    {
+      "entity": "Ireland",
+      "attribute": "population",
+      "value": "5458600",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ireland",
+      "evidence_snippet": "The population of Ireland is 5458600"
+    },
+    {
+      "entity": "Ireland",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ireland",
+      "evidence_snippet": "The currency code of Ireland is EUR"
+    },
+    {
+      "entity": "Tanzania",
+      "attribute": "capital",
+      "value": "Dodoma",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tanzania",
+      "evidence_snippet": "The capital of Tanzania is Dodoma"
+    },
+    {
+      "entity": "Tanzania",
+      "attribute": "population",
+      "value": "68153004",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tanzania",
+      "evidence_snippet": "The population of Tanzania is 68153004"
+    },
+    {
+      "entity": "Tanzania",
+      "attribute": "currency",
+      "value": "TZS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tanzania",
+      "evidence_snippet": "The currency code of Tanzania is TZS"
+    },
+    {
+      "entity": "Morocco",
+      "attribute": "capital",
+      "value": "Rabat",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Morocco",
+      "evidence_snippet": "The capital of Morocco is Rabat"
+    },
+    {
+      "entity": "Morocco",
+      "attribute": "population",
+      "value": "36828330",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Morocco",
+      "evidence_snippet": "The population of Morocco is 36828330"
+    },
+    {
+      "entity": "Morocco",
+      "attribute": "currency",
+      "value": "MAD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Morocco",
+      "evidence_snippet": "The currency code of Morocco is MAD"
+    },
+    {
+      "entity": "Saint Vincent and the Grenadines",
+      "attribute": "capital",
+      "value": "Kingstown",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Vincent%20and%20the%20Grenadines",
+      "evidence_snippet": "The capital of Saint Vincent and the Grenadines is Kingstown"
+    },
+    {
+      "entity": "Saint Vincent and the Grenadines",
+      "attribute": "population",
+      "value": "110872",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Vincent%20and%20the%20Grenadines",
+      "evidence_snippet": "The population of Saint Vincent and the Grenadines is 110872"
+    },
+    {
+      "entity": "Saint Vincent and the Grenadines",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Vincent%20and%20the%20Grenadines",
+      "evidence_snippet": "The currency code of Saint Vincent and the Grenadines is XCD"
+    },
+    {
+      "entity": "Uruguay",
+      "attribute": "capital",
+      "value": "Montevideo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uruguay",
+      "evidence_snippet": "The capital of Uruguay is Montevideo"
+    },
+    {
+      "entity": "Uruguay",
+      "attribute": "population",
+      "value": "3499451",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uruguay",
+      "evidence_snippet": "The population of Uruguay is 3499451"
+    },
+    {
+      "entity": "Uruguay",
+      "attribute": "currency",
+      "value": "UYU",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uruguay",
+      "evidence_snippet": "The currency code of Uruguay is UYU"
+    },
+    {
+      "entity": "Bolivia",
+      "attribute": "capital",
+      "value": "Sucre",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bolivia",
+      "evidence_snippet": "The capital of Bolivia is Sucre"
+    },
+    {
+      "entity": "Bolivia",
+      "attribute": "population",
+      "value": "11365333",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bolivia",
+      "evidence_snippet": "The population of Bolivia is 11365333"
+    },
+    {
+      "entity": "Bolivia",
+      "attribute": "currency",
+      "value": "BOB",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bolivia",
+      "evidence_snippet": "The currency code of Bolivia is BOB"
+    },
+    {
+      "entity": "Chile",
+      "attribute": "capital",
+      "value": "Santiago",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chile",
+      "evidence_snippet": "The capital of Chile is Santiago"
+    },
+    {
+      "entity": "Chile",
+      "attribute": "population",
+      "value": "20206953",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chile",
+      "evidence_snippet": "The population of Chile is 20206953"
+    },
+    {
+      "entity": "Chile",
+      "attribute": "currency",
+      "value": "CLP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Chile",
+      "evidence_snippet": "The currency code of Chile is CLP"
+    },
+    {
+      "entity": "Togo",
+      "attribute": "capital",
+      "value": "Lomé",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Togo",
+      "evidence_snippet": "The capital of Togo is Lomé"
+    },
+    {
+      "entity": "Togo",
+      "attribute": "population",
+      "value": "8095498",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Togo",
+      "evidence_snippet": "The population of Togo is 8095498"
+    },
+    {
+      "entity": "Togo",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Togo",
+      "evidence_snippet": "The currency code of Togo is XOF"
+    },
+    {
+      "entity": "Malaysia",
+      "attribute": "capital",
+      "value": "Kuala Lumpur",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malaysia",
+      "evidence_snippet": "The capital of Malaysia is Kuala Lumpur"
+    },
+    {
+      "entity": "Malaysia",
+      "attribute": "population",
+      "value": "34231700",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malaysia",
+      "evidence_snippet": "The population of Malaysia is 34231700"
+    },
+    {
+      "entity": "Malaysia",
+      "attribute": "currency",
+      "value": "MYR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malaysia",
+      "evidence_snippet": "The currency code of Malaysia is MYR"
+    },
+    {
+      "entity": "Hungary",
+      "attribute": "capital",
+      "value": "Budapest",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Hungary",
+      "evidence_snippet": "The capital of Hungary is Budapest"
+    },
+    {
+      "entity": "Hungary",
+      "attribute": "population",
+      "value": "9539502",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Hungary",
+      "evidence_snippet": "The population of Hungary is 9539502"
+    },
+    {
+      "entity": "Hungary",
+      "attribute": "currency",
+      "value": "HUF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Hungary",
+      "evidence_snippet": "The currency code of Hungary is HUF"
+    },
+    {
+      "entity": "Burkina Faso",
+      "attribute": "capital",
+      "value": "Ouagadougou",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burkina%20Faso",
+      "evidence_snippet": "The capital of Burkina Faso is Ouagadougou"
+    },
+    {
+      "entity": "Burkina Faso",
+      "attribute": "population",
+      "value": "24070553",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burkina%20Faso",
+      "evidence_snippet": "The population of Burkina Faso is 24070553"
+    },
+    {
+      "entity": "Burkina Faso",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burkina%20Faso",
+      "evidence_snippet": "The currency code of Burkina Faso is XOF"
+    },
+    {
+      "entity": "Luxembourg",
+      "attribute": "capital",
+      "value": "Luxembourg",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Luxembourg",
+      "evidence_snippet": "The capital of Luxembourg is Luxembourg"
+    },
+    {
+      "entity": "Luxembourg",
+      "attribute": "population",
+      "value": "681973",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Luxembourg",
+      "evidence_snippet": "The population of Luxembourg is 681973"
+    },
+    {
+      "entity": "Luxembourg",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Luxembourg",
+      "evidence_snippet": "The currency code of Luxembourg is EUR"
+    },
+    {
+      "entity": "Trinidad and Tobago",
+      "attribute": "capital",
+      "value": "Port of Spain",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Trinidad%20and%20Tobago",
+      "evidence_snippet": "The capital of Trinidad and Tobago is Port of Spain"
+    },
+    {
+      "entity": "Trinidad and Tobago",
+      "attribute": "population",
+      "value": "1367764",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Trinidad%20and%20Tobago",
+      "evidence_snippet": "The population of Trinidad and Tobago is 1367764"
+    },
+    {
+      "entity": "Trinidad and Tobago",
+      "attribute": "currency",
+      "value": "TTD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Trinidad%20and%20Tobago",
+      "evidence_snippet": "The currency code of Trinidad and Tobago is TTD"
+    },
+    {
+      "entity": "Namibia",
+      "attribute": "capital",
+      "value": "Windhoek",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Namibia",
+      "evidence_snippet": "The capital of Namibia is Windhoek"
+    },
+    {
+      "entity": "Namibia",
+      "attribute": "population",
+      "value": "3022401",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Namibia",
+      "evidence_snippet": "The population of Namibia is 3022401"
+    },
+    {
+      "entity": "Namibia",
+      "attribute": "currency",
+      "value": "NAD",
+      "aliases": [
+        "ZAR"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Namibia",
+      "evidence_snippet": "The currency code of Namibia is NAD"
+    },
+    {
+      "entity": "Finland",
+      "attribute": "capital",
+      "value": "Helsinki",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Finland",
+      "evidence_snippet": "The capital of Finland is Helsinki"
+    },
+    {
+      "entity": "Finland",
+      "attribute": "population",
+      "value": "5650325",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Finland",
+      "evidence_snippet": "The population of Finland is 5650325"
+    },
+    {
+      "entity": "Finland",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Finland",
+      "evidence_snippet": "The currency code of Finland is EUR"
+    },
+    {
+      "entity": "Papua New Guinea",
+      "attribute": "capital",
+      "value": "Port Moresby",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Papua%20New%20Guinea",
+      "evidence_snippet": "The capital of Papua New Guinea is Port Moresby"
+    },
+    {
+      "entity": "Papua New Guinea",
+      "attribute": "population",
+      "value": "11781559",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Papua%20New%20Guinea",
+      "evidence_snippet": "The population of Papua New Guinea is 11781559"
+    },
+    {
+      "entity": "Papua New Guinea",
+      "attribute": "currency",
+      "value": "PGK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Papua%20New%20Guinea",
+      "evidence_snippet": "The currency code of Papua New Guinea is PGK"
+    },
+    {
+      "entity": "Eritrea",
+      "attribute": "capital",
+      "value": "Asmara",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eritrea",
+      "evidence_snippet": "The capital of Eritrea is Asmara"
+    },
+    {
+      "entity": "Eritrea",
+      "attribute": "population",
+      "value": "3607000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eritrea",
+      "evidence_snippet": "The population of Eritrea is 3607000"
+    },
+    {
+      "entity": "Eritrea",
+      "attribute": "currency",
+      "value": "ERN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eritrea",
+      "evidence_snippet": "The currency code of Eritrea is ERN"
+    },
+    {
+      "entity": "Nicaragua",
+      "attribute": "capital",
+      "value": "Managua",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nicaragua",
+      "evidence_snippet": "The capital of Nicaragua is Managua"
+    },
+    {
+      "entity": "Nicaragua",
+      "attribute": "population",
+      "value": "6803886",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nicaragua",
+      "evidence_snippet": "The population of Nicaragua is 6803886"
+    },
+    {
+      "entity": "Nicaragua",
+      "attribute": "currency",
+      "value": "NIO",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Nicaragua",
+      "evidence_snippet": "The currency code of Nicaragua is NIO"
+    },
+    {
+      "entity": "Bahamas",
+      "attribute": "capital",
+      "value": "Nassau",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahamas",
+      "evidence_snippet": "The capital of Bahamas is Nassau"
+    },
+    {
+      "entity": "Bahamas",
+      "attribute": "population",
+      "value": "398165",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahamas",
+      "evidence_snippet": "The population of Bahamas is 398165"
+    },
+    {
+      "entity": "Bahamas",
+      "attribute": "currency",
+      "value": "BSD",
+      "aliases": [
+        "USD"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bahamas",
+      "evidence_snippet": "The currency code of Bahamas is BSD"
+    },
+    {
+      "entity": "Israel",
+      "attribute": "capital",
+      "value": "Jerusalem",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Israel",
+      "evidence_snippet": "The capital of Israel is Jerusalem"
+    },
+    {
+      "entity": "Israel",
+      "attribute": "population",
+      "value": "10134800",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Israel",
+      "evidence_snippet": "The population of Israel is 10134800"
+    },
+    {
+      "entity": "Israel",
+      "attribute": "currency",
+      "value": "ILS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Israel",
+      "evidence_snippet": "The currency code of Israel is ILS"
+    },
+    {
+      "entity": "Germany",
+      "attribute": "capital",
+      "value": "Berlin",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Germany",
+      "evidence_snippet": "The capital of Germany is Berlin"
+    },
+    {
+      "entity": "Germany",
+      "attribute": "population",
+      "value": "83491249",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Germany",
+      "evidence_snippet": "The population of Germany is 83491249"
+    },
+    {
+      "entity": "Germany",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Germany",
+      "evidence_snippet": "The currency code of Germany is EUR"
+    },
+    {
+      "entity": "Malawi",
+      "attribute": "capital",
+      "value": "Lilongwe",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malawi",
+      "evidence_snippet": "The capital of Malawi is Lilongwe"
+    },
+    {
+      "entity": "Malawi",
+      "attribute": "population",
+      "value": "20734262",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malawi",
+      "evidence_snippet": "The population of Malawi is 20734262"
+    },
+    {
+      "entity": "Malawi",
+      "attribute": "currency",
+      "value": "MWK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Malawi",
+      "evidence_snippet": "The currency code of Malawi is MWK"
+    },
+    {
+      "entity": "Solomon Islands",
+      "attribute": "capital",
+      "value": "Honiara",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Solomon%20Islands",
+      "evidence_snippet": "The capital of Solomon Islands is Honiara"
+    },
+    {
+      "entity": "Solomon Islands",
+      "attribute": "population",
+      "value": "750325",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Solomon%20Islands",
+      "evidence_snippet": "The population of Solomon Islands is 750325"
+    },
+    {
+      "entity": "Solomon Islands",
+      "attribute": "currency",
+      "value": "SBD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Solomon%20Islands",
+      "evidence_snippet": "The currency code of Solomon Islands is SBD"
+    },
+    {
+      "entity": "Benin",
+      "attribute": "capital",
+      "value": "Porto-Novo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Benin",
+      "evidence_snippet": "The capital of Benin is Porto-Novo"
+    },
+    {
+      "entity": "Benin",
+      "attribute": "population",
+      "value": "13224860",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Benin",
+      "evidence_snippet": "The population of Benin is 13224860"
+    },
+    {
+      "entity": "Benin",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Benin",
+      "evidence_snippet": "The currency code of Benin is XOF"
+    },
+    {
+      "entity": "Guyana",
+      "attribute": "capital",
+      "value": "Georgetown",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guyana",
+      "evidence_snippet": "The capital of Guyana is Georgetown"
+    },
+    {
+      "entity": "Guyana",
+      "attribute": "population",
+      "value": "772975",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guyana",
+      "evidence_snippet": "The population of Guyana is 772975"
+    },
+    {
+      "entity": "Guyana",
+      "attribute": "currency",
+      "value": "GYD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guyana",
+      "evidence_snippet": "The currency code of Guyana is GYD"
+    },
+    {
+      "entity": "Slovakia",
+      "attribute": "capital",
+      "value": "Bratislava",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovakia",
+      "evidence_snippet": "The capital of Slovakia is Bratislava"
+    },
+    {
+      "entity": "Slovakia",
+      "attribute": "population",
+      "value": "5413813",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovakia",
+      "evidence_snippet": "The population of Slovakia is 5413813"
+    },
+    {
+      "entity": "Slovakia",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Slovakia",
+      "evidence_snippet": "The currency code of Slovakia is EUR"
+    },
+    {
+      "entity": "Micronesia",
+      "attribute": "capital",
+      "value": "Palikir",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Micronesia",
+      "evidence_snippet": "The capital of Micronesia is Palikir"
+    },
+    {
+      "entity": "Micronesia",
+      "attribute": "population",
+      "value": "105564",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Micronesia",
+      "evidence_snippet": "The population of Micronesia is 105564"
+    },
+    {
+      "entity": "Micronesia",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Micronesia",
+      "evidence_snippet": "The currency code of Micronesia is USD"
+    },
+    {
+      "entity": "Norway",
+      "attribute": "capital",
+      "value": "Oslo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Norway",
+      "evidence_snippet": "The capital of Norway is Oslo"
+    },
+    {
+      "entity": "Norway",
+      "attribute": "population",
+      "value": "5606944",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Norway",
+      "evidence_snippet": "The population of Norway is 5606944"
+    },
+    {
+      "entity": "Norway",
+      "attribute": "currency",
+      "value": "NOK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Norway",
+      "evidence_snippet": "The currency code of Norway is NOK"
+    },
+    {
+      "entity": "Kosovo",
+      "attribute": "capital",
+      "value": "Pristina",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kosovo",
+      "evidence_snippet": "The capital of Kosovo is Pristina"
+    },
+    {
+      "entity": "Kosovo",
+      "attribute": "population",
+      "value": "1585566",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kosovo",
+      "evidence_snippet": "The population of Kosovo is 1585566"
+    },
+    {
+      "entity": "Kosovo",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kosovo",
+      "evidence_snippet": "The currency code of Kosovo is EUR"
+    },
+    {
+      "entity": "Guatemala",
+      "attribute": "capital",
+      "value": "Guatemala City",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guatemala",
+      "evidence_snippet": "The capital of Guatemala is Guatemala City"
+    },
+    {
+      "entity": "Guatemala",
+      "attribute": "population",
+      "value": "18079810",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guatemala",
+      "evidence_snippet": "The population of Guatemala is 18079810"
+    },
+    {
+      "entity": "Guatemala",
+      "attribute": "currency",
+      "value": "GTQ",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Guatemala",
+      "evidence_snippet": "The currency code of Guatemala is GTQ"
+    },
+    {
+      "entity": "Zambia",
+      "attribute": "capital",
+      "value": "Lusaka",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zambia",
+      "evidence_snippet": "The capital of Zambia is Lusaka"
+    },
+    {
+      "entity": "Zambia",
+      "attribute": "population",
+      "value": "19693423",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zambia",
+      "evidence_snippet": "The population of Zambia is 19693423"
+    },
+    {
+      "entity": "Zambia",
+      "attribute": "currency",
+      "value": "ZMW",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zambia",
+      "evidence_snippet": "The currency code of Zambia is ZMW"
+    },
+    {
+      "entity": "Croatia",
+      "attribute": "capital",
+      "value": "Zagreb",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Croatia",
+      "evidence_snippet": "The capital of Croatia is Zagreb"
+    },
+    {
+      "entity": "Croatia",
+      "attribute": "population",
+      "value": "3866233",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Croatia",
+      "evidence_snippet": "The population of Croatia is 3866233"
+    },
+    {
+      "entity": "Croatia",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Croatia",
+      "evidence_snippet": "The currency code of Croatia is EUR"
+    },
+    {
+      "entity": "Colombia",
+      "attribute": "capital",
+      "value": "Bogotá",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Colombia",
+      "evidence_snippet": "The capital of Colombia is Bogotá"
+    },
+    {
+      "entity": "Colombia",
+      "attribute": "population",
+      "value": "53057212",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Colombia",
+      "evidence_snippet": "The population of Colombia is 53057212"
+    },
+    {
+      "entity": "Colombia",
+      "attribute": "currency",
+      "value": "COP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Colombia",
+      "evidence_snippet": "The currency code of Colombia is COP"
+    },
+    {
+      "entity": "Spain",
+      "attribute": "capital",
+      "value": "Madrid",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Spain",
+      "evidence_snippet": "The capital of Spain is Madrid"
+    },
+    {
+      "entity": "Spain",
+      "attribute": "population",
+      "value": "49315949",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Spain",
+      "evidence_snippet": "The population of Spain is 49315949"
+    },
+    {
+      "entity": "Spain",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Spain",
+      "evidence_snippet": "The currency code of Spain is EUR"
+    },
+    {
+      "entity": "Syria",
+      "attribute": "capital",
+      "value": "Damascus",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Syria",
+      "evidence_snippet": "The capital of Syria is Damascus"
+    },
+    {
+      "entity": "Syria",
+      "attribute": "population",
+      "value": "25620000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Syria",
+      "evidence_snippet": "The population of Syria is 25620000"
+    },
+    {
+      "entity": "Syria",
+      "attribute": "currency",
+      "value": "SYP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Syria",
+      "evidence_snippet": "The currency code of Syria is SYP"
+    },
+    {
+      "entity": "Greece",
+      "attribute": "capital",
+      "value": "Athens",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Greece",
+      "evidence_snippet": "The capital of Greece is Athens"
+    },
+    {
+      "entity": "Greece",
+      "attribute": "population",
+      "value": "10400720",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Greece",
+      "evidence_snippet": "The population of Greece is 10400720"
+    },
+    {
+      "entity": "Greece",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Greece",
+      "evidence_snippet": "The currency code of Greece is EUR"
+    },
+    {
+      "entity": "Dominica",
+      "attribute": "capital",
+      "value": "Roseau",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominica",
+      "evidence_snippet": "The capital of Dominica is Roseau"
+    },
+    {
+      "entity": "Dominica",
+      "attribute": "population",
+      "value": "67408",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominica",
+      "evidence_snippet": "The population of Dominica is 67408"
+    },
+    {
+      "entity": "Dominica",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Dominica",
+      "evidence_snippet": "The currency code of Dominica is XCD"
+    },
+    {
+      "entity": "Georgia",
+      "attribute": "capital",
+      "value": "Tbilisi",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Georgia",
+      "evidence_snippet": "The capital of Georgia is Tbilisi"
+    },
+    {
+      "entity": "Georgia",
+      "attribute": "population",
+      "value": "4000921",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Georgia",
+      "evidence_snippet": "The population of Georgia is 4000921"
+    },
+    {
+      "entity": "Georgia",
+      "attribute": "currency",
+      "value": "GEL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Georgia",
+      "evidence_snippet": "The currency code of Georgia is GEL"
+    },
+    {
+      "entity": "Saint Kitts and Nevis",
+      "attribute": "capital",
+      "value": "Basseterre",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Kitts%20and%20Nevis",
+      "evidence_snippet": "The capital of Saint Kitts and Nevis is Basseterre"
+    },
+    {
+      "entity": "Saint Kitts and Nevis",
+      "attribute": "population",
+      "value": "51320",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Kitts%20and%20Nevis",
+      "evidence_snippet": "The population of Saint Kitts and Nevis is 51320"
+    },
+    {
+      "entity": "Saint Kitts and Nevis",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saint%20Kitts%20and%20Nevis",
+      "evidence_snippet": "The currency code of Saint Kitts and Nevis is XCD"
+    },
+    {
+      "entity": "Turkmenistan",
+      "attribute": "capital",
+      "value": "Ashgabat",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkmenistan",
+      "evidence_snippet": "The capital of Turkmenistan is Ashgabat"
+    },
+    {
+      "entity": "Turkmenistan",
+      "attribute": "population",
+      "value": "7057841",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkmenistan",
+      "evidence_snippet": "The population of Turkmenistan is 7057841"
+    },
+    {
+      "entity": "Turkmenistan",
+      "attribute": "currency",
+      "value": "TMT",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkmenistan",
+      "evidence_snippet": "The currency code of Turkmenistan is TMT"
+    },
+    {
+      "entity": "Romania",
+      "attribute": "capital",
+      "value": "Bucharest",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Romania",
+      "evidence_snippet": "The capital of Romania is Bucharest"
+    },
+    {
+      "entity": "Romania",
+      "attribute": "population",
+      "value": "19036031",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Romania",
+      "evidence_snippet": "The population of Romania is 19036031"
+    },
+    {
+      "entity": "Romania",
+      "attribute": "currency",
+      "value": "RON",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Romania",
+      "evidence_snippet": "The currency code of Romania is RON"
+    },
+    {
+      "entity": "Poland",
+      "attribute": "capital",
+      "value": "Warsaw",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Poland",
+      "evidence_snippet": "The capital of Poland is Warsaw"
+    },
+    {
+      "entity": "Poland",
+      "attribute": "population",
+      "value": "37392000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Poland",
+      "evidence_snippet": "The population of Poland is 37392000"
+    },
+    {
+      "entity": "Poland",
+      "attribute": "currency",
+      "value": "PLN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Poland",
+      "evidence_snippet": "The currency code of Poland is PLN"
+    },
+    {
+      "entity": "Liberia",
+      "attribute": "capital",
+      "value": "Monrovia",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liberia",
+      "evidence_snippet": "The capital of Liberia is Monrovia"
+    },
+    {
+      "entity": "Liberia",
+      "attribute": "population",
+      "value": "5248621",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liberia",
+      "evidence_snippet": "The population of Liberia is 5248621"
+    },
+    {
+      "entity": "Liberia",
+      "attribute": "currency",
+      "value": "LRD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liberia",
+      "evidence_snippet": "The currency code of Liberia is LRD"
+    },
+    {
+      "entity": "Gambia",
+      "attribute": "capital",
+      "value": "Banjul",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gambia",
+      "evidence_snippet": "The capital of Gambia is Banjul"
+    },
+    {
+      "entity": "Gambia",
+      "attribute": "population",
+      "value": "2422712",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gambia",
+      "evidence_snippet": "The population of Gambia is 2422712"
+    },
+    {
+      "entity": "Gambia",
+      "attribute": "currency",
+      "value": "GMD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gambia",
+      "evidence_snippet": "The currency code of Gambia is GMD"
+    },
+    {
+      "entity": "Republic of the Congo",
+      "attribute": "capital",
+      "value": "Brazzaville",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Republic%20of%20the%20Congo",
+      "evidence_snippet": "The capital of Republic of the Congo is Brazzaville"
+    },
+    {
+      "entity": "Republic of the Congo",
+      "attribute": "population",
+      "value": "6142180",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Republic%20of%20the%20Congo",
+      "evidence_snippet": "The population of Republic of the Congo is 6142180"
+    },
+    {
+      "entity": "Republic of the Congo",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Republic%20of%20the%20Congo",
+      "evidence_snippet": "The currency code of Republic of the Congo is XAF"
+    },
+    {
+      "entity": "Iran",
+      "attribute": "capital",
+      "value": "Tehran",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iran",
+      "evidence_snippet": "The capital of Iran is Tehran"
+    },
+    {
+      "entity": "Iran",
+      "attribute": "population",
+      "value": "85961000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iran",
+      "evidence_snippet": "The population of Iran is 85961000"
+    },
+    {
+      "entity": "Iran",
+      "attribute": "currency",
+      "value": "IRR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iran",
+      "evidence_snippet": "The currency code of Iran is IRR"
+    },
+    {
+      "entity": "Venezuela",
+      "attribute": "capital",
+      "value": "Caracas",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Venezuela",
+      "evidence_snippet": "The capital of Venezuela is Caracas"
+    },
+    {
+      "entity": "Venezuela",
+      "attribute": "population",
+      "value": "28517000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Venezuela",
+      "evidence_snippet": "The population of Venezuela is 28517000"
+    },
+    {
+      "entity": "Venezuela",
+      "attribute": "currency",
+      "value": "VES",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Venezuela",
+      "evidence_snippet": "The currency code of Venezuela is VES"
+    },
+    {
+      "entity": "Lithuania",
+      "attribute": "capital",
+      "value": "Vilnius",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lithuania",
+      "evidence_snippet": "The capital of Lithuania is Vilnius"
+    },
+    {
+      "entity": "Lithuania",
+      "attribute": "population",
+      "value": "2894886",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lithuania",
+      "evidence_snippet": "The population of Lithuania is 2894886"
+    },
+    {
+      "entity": "Lithuania",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Lithuania",
+      "evidence_snippet": "The currency code of Lithuania is EUR"
+    },
+    {
+      "entity": "Mali",
+      "attribute": "capital",
+      "value": "Bamako",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mali",
+      "evidence_snippet": "The capital of Mali is Bamako"
+    },
+    {
+      "entity": "Mali",
+      "attribute": "population",
+      "value": "22395489",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mali",
+      "evidence_snippet": "The population of Mali is 22395489"
+    },
+    {
+      "entity": "Mali",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mali",
+      "evidence_snippet": "The currency code of Mali is XOF"
+    },
+    {
+      "entity": "Liechtenstein",
+      "attribute": "capital",
+      "value": "Vaduz",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liechtenstein",
+      "evidence_snippet": "The capital of Liechtenstein is Vaduz"
+    },
+    {
+      "entity": "Liechtenstein",
+      "attribute": "population",
+      "value": "40900",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liechtenstein",
+      "evidence_snippet": "The population of Liechtenstein is 40900"
+    },
+    {
+      "entity": "Liechtenstein",
+      "attribute": "currency",
+      "value": "CHF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Liechtenstein",
+      "evidence_snippet": "The currency code of Liechtenstein is CHF"
+    },
+    {
+      "entity": "Australia",
+      "attribute": "capital",
+      "value": "Canberra",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Australia",
+      "evidence_snippet": "The capital of Australia is Canberra"
+    },
+    {
+      "entity": "Australia",
+      "attribute": "population",
+      "value": "27536874",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Australia",
+      "evidence_snippet": "The population of Australia is 27536874"
+    },
+    {
+      "entity": "Australia",
+      "attribute": "currency",
+      "value": "AUD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Australia",
+      "evidence_snippet": "The currency code of Australia is AUD"
+    },
+    {
+      "entity": "Azerbaijan",
+      "attribute": "capital",
+      "value": "Baku",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Azerbaijan",
+      "evidence_snippet": "The capital of Azerbaijan is Baku"
+    },
+    {
+      "entity": "Azerbaijan",
+      "attribute": "population",
+      "value": "10241722",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Azerbaijan",
+      "evidence_snippet": "The population of Azerbaijan is 10241722"
+    },
+    {
+      "entity": "Azerbaijan",
+      "attribute": "currency",
+      "value": "AZN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Azerbaijan",
+      "evidence_snippet": "The currency code of Azerbaijan is AZN"
+    },
+    {
+      "entity": "Senegal",
+      "attribute": "capital",
+      "value": "Dakar",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Senegal",
+      "evidence_snippet": "The capital of Senegal is Dakar"
+    },
+    {
+      "entity": "Senegal",
+      "attribute": "population",
+      "value": "18593258",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Senegal",
+      "evidence_snippet": "The population of Senegal is 18593258"
+    },
+    {
+      "entity": "Senegal",
+      "attribute": "currency",
+      "value": "XOF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Senegal",
+      "evidence_snippet": "The currency code of Senegal is XOF"
+    },
+    {
+      "entity": "Panama",
+      "attribute": "capital",
+      "value": "Panama City",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Panama",
+      "evidence_snippet": "The capital of Panama is Panama City"
+    },
+    {
+      "entity": "Panama",
+      "attribute": "population",
+      "value": "4064780",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Panama",
+      "evidence_snippet": "The population of Panama is 4064780"
+    },
+    {
+      "entity": "Panama",
+      "attribute": "currency",
+      "value": "PAB",
+      "aliases": [
+        "USD"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Panama",
+      "evidence_snippet": "The currency code of Panama is PAB"
+    },
+    {
+      "entity": "Kyrgyzstan",
+      "attribute": "capital",
+      "value": "Bishkek",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kyrgyzstan",
+      "evidence_snippet": "The capital of Kyrgyzstan is Bishkek"
+    },
+    {
+      "entity": "Kyrgyzstan",
+      "attribute": "population",
+      "value": "7281800",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kyrgyzstan",
+      "evidence_snippet": "The population of Kyrgyzstan is 7281800"
+    },
+    {
+      "entity": "Kyrgyzstan",
+      "attribute": "currency",
+      "value": "KGS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kyrgyzstan",
+      "evidence_snippet": "The currency code of Kyrgyzstan is KGS"
+    },
+    {
+      "entity": "Kazakhstan",
+      "attribute": "capital",
+      "value": "Astana",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kazakhstan",
+      "evidence_snippet": "The capital of Kazakhstan is Astana"
+    },
+    {
+      "entity": "Kazakhstan",
+      "attribute": "population",
+      "value": "20426568",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kazakhstan",
+      "evidence_snippet": "The population of Kazakhstan is 20426568"
+    },
+    {
+      "entity": "Kazakhstan",
+      "attribute": "currency",
+      "value": "KZT",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kazakhstan",
+      "evidence_snippet": "The currency code of Kazakhstan is KZT"
+    },
+    {
+      "entity": "Somalia",
+      "attribute": "capital",
+      "value": "Mogadishu",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Somalia",
+      "evidence_snippet": "The capital of Somalia is Mogadishu"
+    },
+    {
+      "entity": "Somalia",
+      "attribute": "population",
+      "value": "19655000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Somalia",
+      "evidence_snippet": "The population of Somalia is 19655000"
+    },
+    {
+      "entity": "Somalia",
+      "attribute": "currency",
+      "value": "SOS",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Somalia",
+      "evidence_snippet": "The currency code of Somalia is SOS"
+    },
+    {
+      "entity": "Kuwait",
+      "attribute": "capital",
+      "value": "Kuwait City",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kuwait",
+      "evidence_snippet": "The capital of Kuwait is Kuwait City"
+    },
+    {
+      "entity": "Kuwait",
+      "attribute": "population",
+      "value": "4881254",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kuwait",
+      "evidence_snippet": "The population of Kuwait is 4881254"
+    },
+    {
+      "entity": "Kuwait",
+      "attribute": "currency",
+      "value": "KWD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kuwait",
+      "evidence_snippet": "The currency code of Kuwait is KWD"
+    },
+    {
+      "entity": "Mozambique",
+      "attribute": "capital",
+      "value": "Maputo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mozambique",
+      "evidence_snippet": "The capital of Mozambique is Maputo"
+    },
+    {
+      "entity": "Mozambique",
+      "attribute": "population",
+      "value": "34090466",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mozambique",
+      "evidence_snippet": "The population of Mozambique is 34090466"
+    },
+    {
+      "entity": "Mozambique",
+      "attribute": "currency",
+      "value": "MZN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mozambique",
+      "evidence_snippet": "The currency code of Mozambique is MZN"
+    },
+    {
+      "entity": "Zimbabwe",
+      "attribute": "capital",
+      "value": "Harare",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zimbabwe",
+      "evidence_snippet": "The capital of Zimbabwe is Harare"
+    },
+    {
+      "entity": "Zimbabwe",
+      "attribute": "population",
+      "value": "17073087",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zimbabwe",
+      "evidence_snippet": "The population of Zimbabwe is 17073087"
+    },
+    {
+      "entity": "Zimbabwe",
+      "attribute": "currency",
+      "value": "ZWL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Zimbabwe",
+      "evidence_snippet": "The currency code of Zimbabwe is ZWL"
+    },
+    {
+      "entity": "Tunisia",
+      "attribute": "capital",
+      "value": "Tunis",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tunisia",
+      "evidence_snippet": "The capital of Tunisia is Tunis"
+    },
+    {
+      "entity": "Tunisia",
+      "attribute": "population",
+      "value": "11972169",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tunisia",
+      "evidence_snippet": "The population of Tunisia is 11972169"
+    },
+    {
+      "entity": "Tunisia",
+      "attribute": "currency",
+      "value": "TND",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tunisia",
+      "evidence_snippet": "The currency code of Tunisia is TND"
+    },
+    {
+      "entity": "New Zealand",
+      "attribute": "capital",
+      "value": "Wellington",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/New%20Zealand",
+      "evidence_snippet": "The capital of New Zealand is Wellington"
+    },
+    {
+      "entity": "New Zealand",
+      "attribute": "population",
+      "value": "5324700",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/New%20Zealand",
+      "evidence_snippet": "The population of New Zealand is 5324700"
+    },
+    {
+      "entity": "New Zealand",
+      "attribute": "currency",
+      "value": "NZD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/New%20Zealand",
+      "evidence_snippet": "The currency code of New Zealand is NZD"
+    },
+    {
+      "entity": "Burundi",
+      "attribute": "capital",
+      "value": "Gitega",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burundi",
+      "evidence_snippet": "The capital of Burundi is Gitega"
+    },
+    {
+      "entity": "Burundi",
+      "attribute": "population",
+      "value": "12332788",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burundi",
+      "evidence_snippet": "The population of Burundi is 12332788"
+    },
+    {
+      "entity": "Burundi",
+      "attribute": "currency",
+      "value": "BIF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Burundi",
+      "evidence_snippet": "The currency code of Burundi is BIF"
+    },
+    {
+      "entity": "Palau",
+      "attribute": "capital",
+      "value": "Ngerulmud",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Palau",
+      "evidence_snippet": "The capital of Palau is Ngerulmud"
+    },
+    {
+      "entity": "Palau",
+      "attribute": "population",
+      "value": "16733",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Palau",
+      "evidence_snippet": "The population of Palau is 16733"
+    },
+    {
+      "entity": "Palau",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Palau",
+      "evidence_snippet": "The currency code of Palau is USD"
+    },
+    {
+      "entity": "Angola",
+      "attribute": "capital",
+      "value": "Luanda",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Angola",
+      "evidence_snippet": "The capital of Angola is Luanda"
+    },
+    {
+      "entity": "Angola",
+      "attribute": "population",
+      "value": "36170961",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Angola",
+      "evidence_snippet": "The population of Angola is 36170961"
+    },
+    {
+      "entity": "Angola",
+      "attribute": "currency",
+      "value": "AOA",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Angola",
+      "evidence_snippet": "The currency code of Angola is AOA"
+    },
+    {
+      "entity": "Libya",
+      "attribute": "capital",
+      "value": "Tripoli",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Libya",
+      "evidence_snippet": "The capital of Libya is Tripoli"
+    },
+    {
+      "entity": "Libya",
+      "attribute": "population",
+      "value": "7459000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Libya",
+      "evidence_snippet": "The population of Libya is 7459000"
+    },
+    {
+      "entity": "Libya",
+      "attribute": "currency",
+      "value": "LYD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Libya",
+      "evidence_snippet": "The currency code of Libya is LYD"
+    },
+    {
+      "entity": "Netherlands",
+      "attribute": "capital",
+      "value": "Amsterdam",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Netherlands",
+      "evidence_snippet": "The capital of Netherlands is Amsterdam"
+    },
+    {
+      "entity": "Netherlands",
+      "attribute": "population",
+      "value": "18100436",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Netherlands",
+      "evidence_snippet": "The population of Netherlands is 18100436"
+    },
+    {
+      "entity": "Netherlands",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Netherlands",
+      "evidence_snippet": "The currency code of Netherlands is EUR"
+    },
+    {
+      "entity": "Grenada",
+      "attribute": "capital",
+      "value": "St. George's",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Grenada",
+      "evidence_snippet": "The capital of Grenada is St. George's"
+    },
+    {
+      "entity": "Grenada",
+      "attribute": "population",
+      "value": "109021",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Grenada",
+      "evidence_snippet": "The population of Grenada is 109021"
+    },
+    {
+      "entity": "Grenada",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Grenada",
+      "evidence_snippet": "The currency code of Grenada is XCD"
+    },
+    {
+      "entity": "Egypt",
+      "attribute": "capital",
+      "value": "Cairo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Egypt",
+      "evidence_snippet": "The capital of Egypt is Cairo"
+    },
+    {
+      "entity": "Egypt",
+      "attribute": "population",
+      "value": "107271260",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Egypt",
+      "evidence_snippet": "The population of Egypt is 107271260"
+    },
+    {
+      "entity": "Egypt",
+      "attribute": "currency",
+      "value": "EGP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Egypt",
+      "evidence_snippet": "The currency code of Egypt is EGP"
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "capital",
+      "value": "London",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Kingdom",
+      "evidence_snippet": "The capital of United Kingdom is London"
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "population",
+      "value": "69281437",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Kingdom",
+      "evidence_snippet": "The population of United Kingdom is 69281437"
+    },
+    {
+      "entity": "United Kingdom",
+      "attribute": "currency",
+      "value": "GBP",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/United%20Kingdom",
+      "evidence_snippet": "The currency code of United Kingdom is GBP"
+    },
+    {
+      "entity": "Eswatini",
+      "attribute": "capital",
+      "value": "Mbabane",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eswatini",
+      "evidence_snippet": "The capital of Eswatini is Mbabane"
+    },
+    {
+      "entity": "Eswatini",
+      "attribute": "population",
+      "value": "1235549",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eswatini",
+      "evidence_snippet": "The population of Eswatini is 1235549"
+    },
+    {
+      "entity": "Eswatini",
+      "attribute": "currency",
+      "value": "SZL",
+      "aliases": [
+        "ZAR"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Eswatini",
+      "evidence_snippet": "The currency code of Eswatini is SZL"
+    },
+    {
+      "entity": "Andorra",
+      "attribute": "capital",
+      "value": "Andorra la Vella",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Andorra",
+      "evidence_snippet": "The capital of Andorra is Andorra la Vella"
+    },
+    {
+      "entity": "Andorra",
+      "attribute": "population",
+      "value": "88406",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Andorra",
+      "evidence_snippet": "The population of Andorra is 88406"
+    },
+    {
+      "entity": "Andorra",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Andorra",
+      "evidence_snippet": "The currency code of Andorra is EUR"
+    },
+    {
+      "entity": "Marshall Islands",
+      "attribute": "capital",
+      "value": "Majuro",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Marshall%20Islands",
+      "evidence_snippet": "The capital of Marshall Islands is Majuro"
+    },
+    {
+      "entity": "Marshall Islands",
+      "attribute": "population",
+      "value": "42418",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Marshall%20Islands",
+      "evidence_snippet": "The population of Marshall Islands is 42418"
+    },
+    {
+      "entity": "Marshall Islands",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Marshall%20Islands",
+      "evidence_snippet": "The currency code of Marshall Islands is USD"
+    },
+    {
+      "entity": "Fiji",
+      "attribute": "capital",
+      "value": "Suva",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Fiji",
+      "evidence_snippet": "The capital of Fiji is Suva"
+    },
+    {
+      "entity": "Fiji",
+      "attribute": "population",
+      "value": "900869",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Fiji",
+      "evidence_snippet": "The population of Fiji is 900869"
+    },
+    {
+      "entity": "Fiji",
+      "attribute": "currency",
+      "value": "FJD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Fiji",
+      "evidence_snippet": "The currency code of Fiji is FJD"
+    },
+    {
+      "entity": "Ecuador",
+      "attribute": "capital",
+      "value": "Quito",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ecuador",
+      "evidence_snippet": "The capital of Ecuador is Quito"
+    },
+    {
+      "entity": "Ecuador",
+      "attribute": "population",
+      "value": "18103660",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ecuador",
+      "evidence_snippet": "The population of Ecuador is 18103660"
+    },
+    {
+      "entity": "Ecuador",
+      "attribute": "currency",
+      "value": "USD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Ecuador",
+      "evidence_snippet": "The currency code of Ecuador is USD"
+    },
+    {
+      "entity": "Seychelles",
+      "attribute": "capital",
+      "value": "Victoria",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Seychelles",
+      "evidence_snippet": "The capital of Seychelles is Victoria"
+    },
+    {
+      "entity": "Seychelles",
+      "attribute": "population",
+      "value": "122729",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Seychelles",
+      "evidence_snippet": "The population of Seychelles is 122729"
+    },
+    {
+      "entity": "Seychelles",
+      "attribute": "currency",
+      "value": "SCR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Seychelles",
+      "evidence_snippet": "The currency code of Seychelles is SCR"
+    },
+    {
+      "entity": "Kenya",
+      "attribute": "capital",
+      "value": "Nairobi",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kenya",
+      "evidence_snippet": "The capital of Kenya is Nairobi"
+    },
+    {
+      "entity": "Kenya",
+      "attribute": "population",
+      "value": "53330978",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kenya",
+      "evidence_snippet": "The population of Kenya is 53330978"
+    },
+    {
+      "entity": "Kenya",
+      "attribute": "currency",
+      "value": "KES",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Kenya",
+      "evidence_snippet": "The currency code of Kenya is KES"
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "capital",
+      "value": "Naypyidaw",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Myanmar",
+      "evidence_snippet": "The capital of Myanmar is Naypyidaw"
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "population",
+      "value": "51316756",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Myanmar",
+      "evidence_snippet": "The population of Myanmar is 51316756"
+    },
+    {
+      "entity": "Myanmar",
+      "attribute": "currency",
+      "value": "MMK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Myanmar",
+      "evidence_snippet": "The currency code of Myanmar is MMK"
+    },
+    {
+      "entity": "Vanuatu",
+      "attribute": "capital",
+      "value": "Port Vila",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vanuatu",
+      "evidence_snippet": "The capital of Vanuatu is Port Vila"
+    },
+    {
+      "entity": "Vanuatu",
+      "attribute": "population",
+      "value": "321409",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vanuatu",
+      "evidence_snippet": "The population of Vanuatu is 321409"
+    },
+    {
+      "entity": "Vanuatu",
+      "attribute": "currency",
+      "value": "VUV",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vanuatu",
+      "evidence_snippet": "The currency code of Vanuatu is VUV"
+    },
+    {
+      "entity": "Qatar",
+      "attribute": "capital",
+      "value": "Doha",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Qatar",
+      "evidence_snippet": "The capital of Qatar is Doha"
+    },
+    {
+      "entity": "Qatar",
+      "attribute": "population",
+      "value": "3173024",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Qatar",
+      "evidence_snippet": "The population of Qatar is 3173024"
+    },
+    {
+      "entity": "Qatar",
+      "attribute": "currency",
+      "value": "QAR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Qatar",
+      "evidence_snippet": "The currency code of Qatar is QAR"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "attribute": "capital",
+      "value": "Riyadh",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saudi%20Arabia",
+      "evidence_snippet": "The capital of Saudi Arabia is Riyadh"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "attribute": "population",
+      "value": "35300280",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saudi%20Arabia",
+      "evidence_snippet": "The population of Saudi Arabia is 35300280"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "attribute": "currency",
+      "value": "SAR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Saudi%20Arabia",
+      "evidence_snippet": "The currency code of Saudi Arabia is SAR"
+    },
+    {
+      "entity": "Mexico",
+      "attribute": "capital",
+      "value": "Mexico City",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mexico",
+      "evidence_snippet": "The capital of Mexico is Mexico City"
+    },
+    {
+      "entity": "Mexico",
+      "attribute": "population",
+      "value": "130575786",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mexico",
+      "evidence_snippet": "The population of Mexico is 130575786"
+    },
+    {
+      "entity": "Mexico",
+      "attribute": "currency",
+      "value": "MXN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Mexico",
+      "evidence_snippet": "The currency code of Mexico is MXN"
+    },
+    {
+      "entity": "Afghanistan",
+      "attribute": "capital",
+      "value": "Kabul",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Afghanistan",
+      "evidence_snippet": "The capital of Afghanistan is Kabul"
+    },
+    {
+      "entity": "Afghanistan",
+      "attribute": "population",
+      "value": "43844000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Afghanistan",
+      "evidence_snippet": "The population of Afghanistan is 43844000"
+    },
+    {
+      "entity": "Afghanistan",
+      "attribute": "currency",
+      "value": "AFN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Afghanistan",
+      "evidence_snippet": "The currency code of Afghanistan is AFN"
+    },
+    {
+      "entity": "Vatican City",
+      "attribute": "capital",
+      "value": "Vatican City",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vatican%20City",
+      "evidence_snippet": "The capital of Vatican City is Vatican City"
+    },
+    {
+      "entity": "Vatican City",
+      "attribute": "population",
+      "value": "882",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vatican%20City",
+      "evidence_snippet": "The population of Vatican City is 882"
+    },
+    {
+      "entity": "Vatican City",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Vatican%20City",
+      "evidence_snippet": "The currency code of Vatican City is EUR"
+    },
+    {
+      "entity": "Serbia",
+      "attribute": "capital",
+      "value": "Belgrade",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Serbia",
+      "evidence_snippet": "The capital of Serbia is Belgrade"
+    },
+    {
+      "entity": "Serbia",
+      "attribute": "population",
+      "value": "6567783",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Serbia",
+      "evidence_snippet": "The population of Serbia is 6567783"
+    },
+    {
+      "entity": "Serbia",
+      "attribute": "currency",
+      "value": "RSD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Serbia",
+      "evidence_snippet": "The currency code of Serbia is RSD"
+    },
+    {
+      "entity": "Albania",
+      "attribute": "capital",
+      "value": "Tirana",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Albania",
+      "evidence_snippet": "The capital of Albania is Tirana"
+    },
+    {
+      "entity": "Albania",
+      "attribute": "population",
+      "value": "2363314",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Albania",
+      "evidence_snippet": "The population of Albania is 2363314"
+    },
+    {
+      "entity": "Albania",
+      "attribute": "currency",
+      "value": "ALL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Albania",
+      "evidence_snippet": "The currency code of Albania is ALL"
+    },
+    {
+      "entity": "Iraq",
+      "attribute": "capital",
+      "value": "Baghdad",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iraq",
+      "evidence_snippet": "The capital of Iraq is Baghdad"
+    },
+    {
+      "entity": "Iraq",
+      "attribute": "population",
+      "value": "46118793",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iraq",
+      "evidence_snippet": "The population of Iraq is 46118793"
+    },
+    {
+      "entity": "Iraq",
+      "attribute": "currency",
+      "value": "IQD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Iraq",
+      "evidence_snippet": "The currency code of Iraq is IQD"
+    },
+    {
+      "entity": "Honduras",
+      "attribute": "capital",
+      "value": "Tegucigalpa",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Honduras",
+      "evidence_snippet": "The capital of Honduras is Tegucigalpa"
+    },
+    {
+      "entity": "Honduras",
+      "attribute": "population",
+      "value": "9892632",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Honduras",
+      "evidence_snippet": "The population of Honduras is 9892632"
+    },
+    {
+      "entity": "Honduras",
+      "attribute": "currency",
+      "value": "HNL",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Honduras",
+      "evidence_snippet": "The currency code of Honduras is HNL"
+    },
+    {
+      "entity": "Jamaica",
+      "attribute": "capital",
+      "value": "Kingston",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jamaica",
+      "evidence_snippet": "The capital of Jamaica is Kingston"
+    },
+    {
+      "entity": "Jamaica",
+      "attribute": "population",
+      "value": "2825544",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jamaica",
+      "evidence_snippet": "The population of Jamaica is 2825544"
+    },
+    {
+      "entity": "Jamaica",
+      "attribute": "currency",
+      "value": "JMD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Jamaica",
+      "evidence_snippet": "The currency code of Jamaica is JMD"
+    },
+    {
+      "entity": "Portugal",
+      "attribute": "capital",
+      "value": "Lisbon",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Portugal",
+      "evidence_snippet": "The capital of Portugal is Lisbon"
+    },
+    {
+      "entity": "Portugal",
+      "attribute": "population",
+      "value": "10749635",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Portugal",
+      "evidence_snippet": "The population of Portugal is 10749635"
+    },
+    {
+      "entity": "Portugal",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Portugal",
+      "evidence_snippet": "The currency code of Portugal is EUR"
+    },
+    {
+      "entity": "Bhutan",
+      "attribute": "capital",
+      "value": "Thimphu",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bhutan",
+      "evidence_snippet": "The capital of Bhutan is Thimphu"
+    },
+    {
+      "entity": "Bhutan",
+      "attribute": "population",
+      "value": "784043",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bhutan",
+      "evidence_snippet": "The population of Bhutan is 784043"
+    },
+    {
+      "entity": "Bhutan",
+      "attribute": "currency",
+      "value": "BTN",
+      "aliases": [
+        "INR"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Bhutan",
+      "evidence_snippet": "The currency code of Bhutan is BTN"
+    },
+    {
+      "entity": "Antigua and Barbuda",
+      "attribute": "capital",
+      "value": "Saint John's",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Antigua%20and%20Barbuda",
+      "evidence_snippet": "The capital of Antigua and Barbuda is Saint John's"
+    },
+    {
+      "entity": "Antigua and Barbuda",
+      "attribute": "population",
+      "value": "103603",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Antigua%20and%20Barbuda",
+      "evidence_snippet": "The population of Antigua and Barbuda is 103603"
+    },
+    {
+      "entity": "Antigua and Barbuda",
+      "attribute": "currency",
+      "value": "XCD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Antigua%20and%20Barbuda",
+      "evidence_snippet": "The currency code of Antigua and Barbuda is XCD"
+    },
+    {
+      "entity": "Madagascar",
+      "attribute": "capital",
+      "value": "Antananarivo",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Madagascar",
+      "evidence_snippet": "The capital of Madagascar is Antananarivo"
+    },
+    {
+      "entity": "Madagascar",
+      "attribute": "population",
+      "value": "31727042",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Madagascar",
+      "evidence_snippet": "The population of Madagascar is 31727042"
+    },
+    {
+      "entity": "Madagascar",
+      "attribute": "currency",
+      "value": "MGA",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Madagascar",
+      "evidence_snippet": "The currency code of Madagascar is MGA"
+    },
+    {
+      "entity": "Cambodia",
+      "attribute": "capital",
+      "value": "Phnom Penh",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cambodia",
+      "evidence_snippet": "The capital of Cambodia is Phnom Penh"
+    },
+    {
+      "entity": "Cambodia",
+      "attribute": "population",
+      "value": "17577760",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cambodia",
+      "evidence_snippet": "The population of Cambodia is 17577760"
+    },
+    {
+      "entity": "Cambodia",
+      "attribute": "currency",
+      "value": "KHR",
+      "aliases": [
+        "USD"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cambodia",
+      "evidence_snippet": "The currency code of Cambodia is KHR"
+    },
+    {
+      "entity": "Belarus",
+      "attribute": "capital",
+      "value": "Minsk",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belarus",
+      "evidence_snippet": "The capital of Belarus is Minsk"
+    },
+    {
+      "entity": "Belarus",
+      "attribute": "population",
+      "value": "9109280",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belarus",
+      "evidence_snippet": "The population of Belarus is 9109280"
+    },
+    {
+      "entity": "Belarus",
+      "attribute": "currency",
+      "value": "BYN",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Belarus",
+      "evidence_snippet": "The currency code of Belarus is BYN"
+    },
+    {
+      "entity": "Uganda",
+      "attribute": "capital",
+      "value": "Kampala",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uganda",
+      "evidence_snippet": "The capital of Uganda is Kampala"
+    },
+    {
+      "entity": "Uganda",
+      "attribute": "population",
+      "value": "45905417",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uganda",
+      "evidence_snippet": "The population of Uganda is 45905417"
+    },
+    {
+      "entity": "Uganda",
+      "attribute": "currency",
+      "value": "UGX",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Uganda",
+      "evidence_snippet": "The currency code of Uganda is UGX"
+    },
+    {
+      "entity": "Armenia",
+      "attribute": "capital",
+      "value": "Yerevan",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Armenia",
+      "evidence_snippet": "The capital of Armenia is Yerevan"
+    },
+    {
+      "entity": "Armenia",
+      "attribute": "population",
+      "value": "3076200",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Armenia",
+      "evidence_snippet": "The population of Armenia is 3076200"
+    },
+    {
+      "entity": "Armenia",
+      "attribute": "currency",
+      "value": "AMD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Armenia",
+      "evidence_snippet": "The currency code of Armenia is AMD"
+    },
+    {
+      "entity": "Cameroon",
+      "attribute": "capital",
+      "value": "Yaoundé",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cameroon",
+      "evidence_snippet": "The capital of Cameroon is Yaoundé"
+    },
+    {
+      "entity": "Cameroon",
+      "attribute": "population",
+      "value": "29442327",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cameroon",
+      "evidence_snippet": "The population of Cameroon is 29442327"
+    },
+    {
+      "entity": "Cameroon",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cameroon",
+      "evidence_snippet": "The currency code of Cameroon is XAF"
+    },
+    {
+      "entity": "France",
+      "attribute": "capital",
+      "value": "Paris",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/France",
+      "evidence_snippet": "The capital of France is Paris"
+    },
+    {
+      "entity": "France",
+      "attribute": "population",
+      "value": "66351959",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/France",
+      "evidence_snippet": "The population of France is 66351959"
+    },
+    {
+      "entity": "France",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/France",
+      "evidence_snippet": "The currency code of France is EUR"
+    },
+    {
+      "entity": "Cape Verde",
+      "attribute": "capital",
+      "value": "Praia",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cape%20Verde",
+      "evidence_snippet": "The capital of Cape Verde is Praia"
+    },
+    {
+      "entity": "Cape Verde",
+      "attribute": "population",
+      "value": "491233",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cape%20Verde",
+      "evidence_snippet": "The population of Cape Verde is 491233"
+    },
+    {
+      "entity": "Cape Verde",
+      "attribute": "currency",
+      "value": "CVE",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Cape%20Verde",
+      "evidence_snippet": "The currency code of Cape Verde is CVE"
+    },
+    {
+      "entity": "Gabon",
+      "attribute": "capital",
+      "value": "Libreville",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gabon",
+      "evidence_snippet": "The capital of Gabon is Libreville"
+    },
+    {
+      "entity": "Gabon",
+      "attribute": "population",
+      "value": "2469296",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gabon",
+      "evidence_snippet": "The population of Gabon is 2469296"
+    },
+    {
+      "entity": "Gabon",
+      "attribute": "currency",
+      "value": "XAF",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Gabon",
+      "evidence_snippet": "The currency code of Gabon is XAF"
+    },
+    {
+      "entity": "Laos",
+      "attribute": "capital",
+      "value": "Vientiane",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Laos",
+      "evidence_snippet": "The capital of Laos is Vientiane"
+    },
+    {
+      "entity": "Laos",
+      "attribute": "population",
+      "value": "7647000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Laos",
+      "evidence_snippet": "The population of Laos is 7647000"
+    },
+    {
+      "entity": "Laos",
+      "attribute": "currency",
+      "value": "LAK",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Laos",
+      "evidence_snippet": "The currency code of Laos is LAK"
+    },
+    {
+      "entity": "India",
+      "attribute": "capital",
+      "value": "New Delhi",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/India",
+      "evidence_snippet": "The capital of India is New Delhi"
+    },
+    {
+      "entity": "India",
+      "attribute": "population",
+      "value": "1417492000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/India",
+      "evidence_snippet": "The population of India is 1417492000"
+    },
+    {
+      "entity": "India",
+      "attribute": "currency",
+      "value": "INR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/India",
+      "evidence_snippet": "The currency code of India is INR"
+    },
+    {
+      "entity": "Brunei",
+      "attribute": "capital",
+      "value": "Bandar Seri Begawan",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brunei",
+      "evidence_snippet": "The capital of Brunei is Bandar Seri Begawan"
+    },
+    {
+      "entity": "Brunei",
+      "attribute": "population",
+      "value": "455500",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brunei",
+      "evidence_snippet": "The population of Brunei is 455500"
+    },
+    {
+      "entity": "Brunei",
+      "attribute": "currency",
+      "value": "BND",
+      "aliases": [
+        "SGD"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Brunei",
+      "evidence_snippet": "The currency code of Brunei is BND"
+    },
+    {
+      "entity": "Turkey",
+      "attribute": "capital",
+      "value": "Ankara",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkey",
+      "evidence_snippet": "The capital of Turkey is Ankara"
+    },
+    {
+      "entity": "Turkey",
+      "attribute": "population",
+      "value": "85664944",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkey",
+      "evidence_snippet": "The population of Turkey is 85664944"
+    },
+    {
+      "entity": "Turkey",
+      "attribute": "currency",
+      "value": "TRY",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Turkey",
+      "evidence_snippet": "The currency code of Turkey is TRY"
+    },
+    {
+      "entity": "Singapore",
+      "attribute": "capital",
+      "value": "Singapore",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Singapore",
+      "evidence_snippet": "The capital of Singapore is Singapore"
+    },
+    {
+      "entity": "Singapore",
+      "attribute": "population",
+      "value": "6110200",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Singapore",
+      "evidence_snippet": "The population of Singapore is 6110200"
+    },
+    {
+      "entity": "Singapore",
+      "attribute": "currency",
+      "value": "SGD",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Singapore",
+      "evidence_snippet": "The currency code of Singapore is SGD"
+    },
+    {
+      "entity": "China",
+      "attribute": "capital",
+      "value": "Beijing",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/China",
+      "evidence_snippet": "The capital of China is Beijing"
+    },
+    {
+      "entity": "China",
+      "attribute": "population",
+      "value": "1408280000",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/China",
+      "evidence_snippet": "The population of China is 1408280000"
+    },
+    {
+      "entity": "China",
+      "attribute": "currency",
+      "value": "CNY",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/China",
+      "evidence_snippet": "The currency code of China is CNY"
+    },
+    {
+      "entity": "Monaco",
+      "attribute": "capital",
+      "value": "Monaco",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Monaco",
+      "evidence_snippet": "The capital of Monaco is Monaco"
+    },
+    {
+      "entity": "Monaco",
+      "attribute": "population",
+      "value": "38423",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Monaco",
+      "evidence_snippet": "The population of Monaco is 38423"
+    },
+    {
+      "entity": "Monaco",
+      "attribute": "currency",
+      "value": "EUR",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Monaco",
+      "evidence_snippet": "The currency code of Monaco is EUR"
+    },
+    {
+      "entity": "Thailand",
+      "attribute": "capital",
+      "value": "Bangkok",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Thailand",
+      "evidence_snippet": "The capital of Thailand is Bangkok"
+    },
+    {
+      "entity": "Thailand",
+      "attribute": "population",
+      "value": "65859640",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Thailand",
+      "evidence_snippet": "The population of Thailand is 65859640"
+    },
+    {
+      "entity": "Thailand",
+      "attribute": "currency",
+      "value": "THB",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Thailand",
+      "evidence_snippet": "The currency code of Thailand is THB"
+    },
+    {
+      "entity": "Tuvalu",
+      "attribute": "capital",
+      "value": "Funafuti",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tuvalu",
+      "evidence_snippet": "The capital of Tuvalu is Funafuti"
+    },
+    {
+      "entity": "Tuvalu",
+      "attribute": "population",
+      "value": "10643",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tuvalu",
+      "evidence_snippet": "The population of Tuvalu is 10643"
+    },
+    {
+      "entity": "Tuvalu",
+      "attribute": "currency",
+      "value": "AUD",
+      "aliases": [
+        "TVD"
+      ],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/Tuvalu",
+      "evidence_snippet": "The currency code of Tuvalu is AUD"
+    },
+    {
+      "entity": "South Korea",
+      "attribute": "capital",
+      "value": "Seoul",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Korea",
+      "evidence_snippet": "The capital of South Korea is Seoul"
+    },
+    {
+      "entity": "South Korea",
+      "attribute": "population",
+      "value": "51159889",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Korea",
+      "evidence_snippet": "The population of South Korea is 51159889"
+    },
+    {
+      "entity": "South Korea",
+      "attribute": "currency",
+      "value": "KRW",
+      "aliases": [],
+      "source_name": "RestCountries (UN-aligned metadata)",
+      "source_url": "https://restcountries.com/v3.1/name/South%20Korea",
+      "evidence_snippet": "The currency code of South Korea is KRW"
+    }
+  ]
+}

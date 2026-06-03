@@ -1,0 +1,5 @@
+{"id":"t1","question":"What is the capital of France?","response":"The capital of France is Paris.","expected_response_verified":true}
+{"id":"t2","question":"Tell me about the Moon.","response":"The Moon is made of cheese. It orbits Earth every 27.3 days.","expected_response_verified":false}
+{"id":"t3","question":"What happens to water at sea level?","response":"Water boils at 100 degrees Celsius at sea level.","expected_response_verified":true}
+{"id":"t4","question":"Tell me about Einstein.","response":"Einstein was a theoretical physicist.","expected_response_verified":true}
+

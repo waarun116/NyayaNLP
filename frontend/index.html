@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyayaNLP — AI Hallucination Detector</title>
+    <script>
+        // Redirect to the improved dynamic UI (keep the old file as a fallback).
+        window.location.replace("index_v2.html");
+    </script>
+    <meta name="description" content="NyayaNLP uses Nyaya philosophy-inspired AI to detect and verify hallucinations in LLM responses.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ===== Reset & Base ===== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0b0e17;
+            min-height: 100vh;
+            color: #e0e6f0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* ===== Animated Background ===== */
+        .bg-gradient {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 10% 90%, rgba(78, 205, 196, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 80% at 90% 10%, rgba(255, 107, 107, 0.10) 0%, transparent 50%),
+                radial-gradient(ellipse 90% 90% at 50% 50%, rgba(22, 33, 62, 0.95) 0%, #0b0e17 100%);
+        }
+
+        .bg-orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.35;
+            z-index: 0;
+            animation: orbFloat 20s ease-in-out infinite;
+        }
+
+        .bg-orb.orb-1 {
+            width: 400px; height: 400px;
+            background: radial-gradient(circle, #4ecdc4 0%, transparent 70%);
+            top: -120px; left: -80px;
+            animation-duration: 22s;
+        }
+
+        .bg-orb.orb-2 {
+            width: 350px; height: 350px;
+            background: radial-gradient(circle, #ff6b6b 0%, transparent 70%);
+            bottom: -100px; right: -60px;
+            animation-duration: 18s;
+            animation-delay: -6s;
+        }
+
+        .bg-orb.orb-3 {
+            width: 250px; height: 250px;
+            background: radial-gradient(circle, #667eea 0%, transparent 70%);
+            top: 40%; left: 60%;
+            animation-duration: 25s;
+            animation-delay: -12s;
+            opacity: 0.2;
+        }
+
+        @keyframes orbFloat {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -20px) scale(1.05); }
+            50% { transform: translate(-20px, 30px) scale(0.95); }
+            75% { transform: translate(20px, 20px) scale(1.03); }
+        }
+
+        /* ===== Layout Wrapper ===== */
+        .app-wrapper {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* ===== Header ===== */
+        .header {
+            background: rgba(11, 14, 23, 0.75);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 0.9rem 2rem;
+            border-bottom: 1px solid rgba(78, 205, 196, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(78, 205, 196, 0.4), rgba(255, 107, 107, 0.3), transparent);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .header h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-icon {
+            font-size: 1.65rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #4ecdc4, #667eea);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            filter: drop-shadow(0 0 10px rgba(78, 205, 196, 0.25));
+        }
+
+        .header h1 .brand-name {
+            color: #e0e6f0;
+        }
+
+        .header h1 span {
+            background: linear-gradient(135deg, #4ecdc4, #44e5bb);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+        }
+
+        .badge {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.25);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: #4ecdc4;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #4ecdc4;
+            border-radius: 50%;
+            animation: pulse-dot 2s ease-in-out infinite;
+        }
+
+        .status-text {
+            font-size: 0.75rem;
+            color: rgba(78, 205, 196, 0.8);
+            font-weight: 500;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(78, 205, 196, 0.4); }
+            50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(78, 205, 196, 0); }
+        }
+
+        /* ===== Main Container ===== */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+            width: 100%;
+        }
+
+        /* ===== Model Selector ===== */
+        .model-selector {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 0.8rem;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 0.6rem 1.2rem;
+            border-radius: 14px;
+            backdrop-filter: blur(10px);
+        }
+
+        .model-selector label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #a0aec0;
+        }
+
+        .model-selector select {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.2);
+            padding: 0.45rem 1rem;
+            border-radius: 10px;
+            color: #e0e6f0;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%234ecdc4' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding-right: 2rem;
+        }
+
+        .model-selector select:hover {
+            border-color: rgba(78, 205, 196, 0.4);
+            background-color: rgba(78, 205, 196, 0.15);
+        }
+
+        .model-selector select:focus {
+            outline: none;
+            border-color: #4ecdc4;
+            box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.15);
+        }
+
+        .model-selector select option {
+            background: #1a1f2e;
+            color: #e0e6f0;
+        }
+
+        .model-hint {
+            font-size: 0.75rem;
+            color: #5a6577;
+            font-style: italic;
+        }
+
+        /* ===== Experiments Panel ===== */
+        .experiments-bar {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 0.6rem 1rem;
+            border-radius: 14px;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e0e6f0;
+            padding: 0.65rem 1rem;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-1px);
+            background: rgba(255, 255, 255, 0.075);
+            border-color: rgba(78, 205, 196, 0.25);
+        }
+
+        .experiments-status {
+            font-size: 0.8rem;
+            color: rgba(144, 160, 184, 0.95);
+        }
+
+        .experiments-panel {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 18px;
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+
+        .experiments-panel h3 {
+            color: #dce5f3;
+            font-size: 0.98rem;
+            margin-bottom: 0.6rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .exp-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0.6rem;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .exp-table th,
+        .exp-table td {
+            text-align: left;
+            padding: 0.55rem 0.6rem;
+            font-size: 0.78rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            color: #b8c6dd;
+        }
+
+        .exp-table th {
+            color: #e0e6f0;
+            font-weight: 700;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .exp-section {
+            margin-top: 1rem;
+        }
+
+        .exp-key {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-weight: 700;
+            color: #dce5f3;
+            margin-bottom: 0.2rem;
+            font-size: 0.85rem;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(78, 205, 196, 0.8);
+            box-shadow: 0 0 0 4px rgba(78, 205, 196, 0.12);
+        }
+
+        .dot.amber {
+            background: rgba(255, 165, 0, 0.9);
+            box-shadow: 0 0 0 4px rgba(255, 165, 0, 0.14);
+        }
+
+        .compare-toggle {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            color: #b6c0d2;
+            font-size: 0.8rem;
+            user-select: none;
+        }
+
+        .compare-toggle input {
+            accent-color: #4ecdc4;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+        }
+
+        /* ===== Chat Messages Area ===== */
+        .chat-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 18px;
+            margin-bottom: 1rem;
+            backdrop-filter: blur(10px);
+            scroll-behavior: smooth;
+        }
+
+        /* ===== Message Bubbles ===== */
+        .message {
+            margin-bottom: 1.5rem;
+            animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(14px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .question {
+            background: linear-gradient(135deg, #4ecdc4 0%, #38b2ac 50%, #319795 100%);
+            padding: 1rem 1.3rem;
+            border-radius: 20px 20px 6px 20px;
+            max-width: 75%;
+            margin-left: auto;
+            color: #fff;
+            font-weight: 450;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            box-shadow:
+                0 4px 15px rgba(78, 205, 196, 0.2),
+                0 1px 3px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .question::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        .answer {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 1rem 1.3rem;
+            border-radius: 20px 20px 20px 6px;
+            max-width: 88%;
+            margin-right: auto;
+            margin-top: 0.5rem;
+            font-size: 0.93rem;
+            line-height: 1.6;
+            color: #d0d8e8;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(8px);
+        }
+
+        .answer strong {
+            color: #4ecdc4;
+        }
+
+        /* ===== Verification Section ===== */
+        .verification {
+            margin-top: 0.75rem;
+            padding: 0.8rem 1.1rem;
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 14px;
+            font-size: 0.88rem;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .verification-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+        }
+
+        .verification-title {
+            font-weight: 600;
+            color: #dce5f3;
+        }
+
+        .verification-sub {
+            font-size: 0.78rem;
+            color: #90a0b8;
+            margin-top: 0.3rem;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 0.55rem;
+            margin-top: 0.75rem;
+        }
+
+        .stat-chip {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 10px;
+            padding: 0.45rem 0.6rem;
+            font-size: 0.74rem;
+            color: #aeb8ca;
+        }
+
+        .sources-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.55rem;
+        }
+
+        .source-chip {
+            background: rgba(78, 205, 196, 0.14);
+            border: 1px solid rgba(78, 205, 196, 0.24);
+            border-radius: 999px;
+            padding: 3px 9px;
+            font-size: 0.69rem;
+            color: #66ddd4;
+        }
+
+        .source-chip.neutral {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.14);
+            color: #c3cddd;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.65rem;
+            margin-top: 0.8rem;
+        }
+
+        .compare-card {
+            background: rgba(255, 255, 255, 0.035);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 12px;
+            padding: 0.7rem 0.8rem;
+        }
+
+        .compare-card h4 {
+            font-size: 0.78rem;
+            color: #d7e0ef;
+            margin-bottom: 0.45rem;
+        }
+
+        .compare-line {
+            font-size: 0.73rem;
+            color: #98a6bf;
+            line-height: 1.45;
+        }
+
+        /* ===== Verification Cards ===== */
+        .claim-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 0.9rem 1rem;
+            margin-top: 0.6rem;
+            border-left: 4px solid;
+            transition: all 0.25s ease;
+        }
+
+        .claim-card:hover {
+            background: rgba(255, 255, 255, 0.07);
+            transform: translateX(3px);
+        }
+
+        .claim-card.verified {
+            border-left-color: #4ecdc4;
+        }
+
+        .claim-card.not-verified {
+            border-left-color: #ff6b6b;
+        }
+
+        .claim-text {
+            font-size: 0.88rem;
+            margin-bottom: 0.5rem;
+            color: #c0c8d8;
+            line-height: 1.45;
+        }
+
+        .confidence-bar {
+            height: 5px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 3px;
+            margin: 0.6rem 0;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ecdc4, #44e5bb);
+            width: 0%;
+            border-radius: 3px;
+            transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 0 8px rgba(78, 205, 196, 0.4);
+        }
+
+        .nyaya-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 0.72rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+            letter-spacing: 0.02em;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* ===== Input Area ===== */
+        .input-area {
+            display: flex;
+            gap: 0.75rem;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 0.8rem 1rem;
+            border-radius: 18px;
+            backdrop-filter: blur(12px);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .input-area:focus-within {
+            border-color: rgba(78, 205, 196, 0.3);
+            box-shadow: 0 0 0 4px rgba(78, 205, 196, 0.08), 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .input-area input {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 0.85rem 1.2rem;
+            border-radius: 14px;
+            color: #e0e6f0;
+            font-size: 0.95rem;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .input-area input::placeholder {
+            color: rgba(255, 255, 255, 0.35);
+            font-weight: 400;
+        }
+
+        .input-area input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.09);
+            border-color: rgba(78, 205, 196, 0.25);
+        }
+
+        .input-area button {
+            background: linear-gradient(135deg, #4ecdc4 0%, #38b2ac 100%);
+            border: none;
+            padding: 0.85rem 2rem;
+            border-radius: 14px;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            letter-spacing: 0.03em;
+            box-shadow: 0 4px 14px rgba(78, 205, 196, 0.25);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .input-area button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(78, 205, 196, 0.35);
+        }
+
+        .input-area button:active {
+            transform: translateY(0);
+        }
+
+        .input-area button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* ===== Loading Animation ===== */
+        .loading {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            border-top-color: #4ecdc4;
+            animation: spin 0.7s linear infinite;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* ===== Footer ===== */
+        .footer {
+            text-align: center;
+            padding: 0.6rem 1rem;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.2);
+            letter-spacing: 0.05em;
+        }
+
+        .footer a {
+            color: rgba(78, 205, 196, 0.5);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover {
+            color: #4ecdc4;
+        }
+
+        /* ===== Custom Scrollbar ===== */
+        .chat-area::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .chat-area::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .chat-area::-webkit-scrollbar-thumb {
+            background: rgba(78, 205, 196, 0.3);
+            border-radius: 3px;
+            transition: background 0.2s;
+        }
+
+        .chat-area::-webkit-scrollbar-thumb:hover {
+            background: rgba(78, 205, 196, 0.5);
+        }
+
+        /* ===== Welcome Card ===== */
+        .welcome-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+        }
+
+        .welcome-card .welcome-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+            display: block;
+        }
+
+        .welcome-card .welcome-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #e0e6f0;
+            margin-bottom: 0.5rem;
+        }
+
+        .welcome-card .welcome-title strong {
+            background: linear-gradient(135deg, #4ecdc4, #667eea);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .welcome-card .welcome-desc {
+            font-size: 0.88rem;
+            color: #7a859a;
+            line-height: 1.6;
+            max-width: 450px;
+            margin: 0 auto 1.2rem;
+        }
+
+        .welcome-features {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .welcome-feature {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 0.7rem 1rem;
+            font-size: 0.78rem;
+            color: #8a95aa;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .welcome-feature .feat-icon {
+            font-size: 1rem;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .header {
+                padding: 0.7rem 1rem;
+                flex-direction: column;
+                gap: 6px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .question, .answer {
+                max-width: 92%;
+            }
+
+            .model-selector {
+                flex-wrap: wrap;
+                font-size: 0.82rem;
+            }
+
+            .compare-toggle {
+                margin-left: 0;
+            }
+
+            .stats-row {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .compare-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .welcome-features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .input-area button {
+                padding: 0.85rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <div class="app-wrapper">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1>
+                    <span class="logo-icon" aria-hidden="true">न</span>
+                    <span class="brand-name">Nyaya</span><span>NLP</span>
+                </h1>
+                <span class="badge">AI Hallucination Detector</span>
+            </div>
+            <div class="header-right">
+                <div class="status-dot"></div>
+                <span class="status-text">System Online</span>
+            </div>
+        </div>
+
+        <!-- Main Container -->
+        <div class="container">
+            <div class="model-selector">
+                <label>AI Model:</label>
+                <select id="modelSelect">
+                    <option value="llama3">Llama 3</option>
+                    <option value="mistral">Mistral</option>
+                    <option value="phi">Phi-3</option>
+                </select>
+                <span class="model-hint">Running locally via Ollama</span>
+                <label class="compare-toggle" title="Show hybrid vs lexical-only verification">
+                    <input type="checkbox" id="compareModeToggle">
+                    Compare mode
+                </label>
+            </div>
+
+            <div class="experiments-bar">
+                <button class="btn-secondary" id="experimentsLoadBtn" onclick="loadExperiments()">Load Experiments</button>
+                <div class="experiments-status" id="experimentsStatus">Not loaded</div>
+            </div>
+
+            <div class="experiments-panel" id="experimentsPanel" style="display:none;">
+                <h3>Research Outputs</h3>
+                <div id="experimentsContent"></div>
+            </div>
+
+            <div class="chat-area" id="chatArea">
+                <div class="message">
+                    <div class="answer">
+                        <div class="welcome-card">
+                            <span class="welcome-icon" aria-hidden="true">न</span>
+                            <div class="welcome-title">Welcome to <strong>NyayaNLP</strong></div>
+                            <div class="welcome-desc">
+                                I detect hallucinations in AI responses using principles inspired by Nyaya philosophy — the ancient Indian school of logic and epistemology.
+                            </div>
+                            <div class="welcome-features">
+                                <div class="welcome-feature">Claim Extraction</div>
+                                <div class="welcome-feature">Fact Verification</div>
+                                <div class="welcome-feature">Confidence Scoring</div>
+                                <div class="welcome-feature">Nyaya Sutras</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="questionInput" placeholder="Ask me anything — I'll verify the AI's response..." onkeypress="handleKeyPress(event)">
+                <button id="sendBtn" onclick="sendQuestion()">Send ➤</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            NyayaNLP · Hallucination Detection powered by Nyaya Philosophy · M.Tech Research Project
+        </div>
+    </div>
+
+    <script>
+        // API endpoint
+        const API_URL = "http://localhost:8000/verify";
+        const EXP_LIST_URL = "http://localhost:8000/experiments/list";
+        const EXP_FILE_URL = "http://localhost:8000/experiments/file";
+
+        // Get elements
+        const chatArea = document.getElementById('chatArea');
+        const questionInput = document.getElementById('questionInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const modelSelect = document.getElementById('modelSelect');
+        const compareModeToggle = document.getElementById('compareModeToggle');
+        const experimentsPanel = document.getElementById('experimentsPanel');
+        const experimentsContent = document.getElementById('experimentsContent');
+        const experimentsStatus = document.getElementById('experimentsStatus');
+
+        // Send question to backend
+        async function sendQuestion() {
+            const question = questionInput.value.trim();
+            if (!question) return;
+
+            // Disable input during processing
+            questionInput.disabled = true;
+            sendBtn.disabled = true;
+
+            // Add user question to chat
+            addMessage('question', question);
+            questionInput.value = '';
+
+            // Add loading indicator
+            const loadingId = addLoadingMessage();
+
+            try {
+                // Get AI response from Llama 3 via backend
+                const aiResponse = await getAIResponse(question);
+                
+                // Remove loading indicator
+                removeLoadingMessage(loadingId);
+                
+                // Add AI response with verification
+                await addAIResponse(question, aiResponse);
+                
+            } catch (error) {
+                removeLoadingMessage(loadingId);
+                addMessage('error', `Error: ${error.message}`);
+            }
+
+            // Re-enable input
+            questionInput.disabled = false;
+            sendBtn.disabled = false;
+            questionInput.focus();
+        }
+
+        // Get AI response from backend
+        async function getAIResponse(question) {
+            const response = await fetch('http://localhost:8000/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    question: question,
+                    model: modelSelect.value
+                })
+            });
+            
+            if (!response.ok) {
+                throw new Error('Failed to get AI response');
+            }
+            
+            const data = await response.json();
+            return data.response;
+        }
+
+        // Add AI response with verification
+        async function addAIResponse(question, aiResponse) {
+            // First show the AI response
+            const messageId = addMessage('answer', aiResponse);
+            
+            // Then verify it
+            try {
+                if (compareModeToggle && compareModeToggle.checked) {
+                    const compareResult = await verifyCompareResponse(question, aiResponse);
+                    addVerificationCompareToMessage(messageId, compareResult);
+                } else {
+                    const verification = await verifyResponse(question, aiResponse);
+                    addVerificationToMessage(messageId, verification);
+                }
+            } catch (error) {
+                console.error('Verification error:', error);
+                addVerificationError(messageId, error.message);
+            }
+        }
+
+        // Call verification API
+        async function verifyResponse(question, response) {
+            const res = await fetch(API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    question: question,
+                    response: response,
+                    model_used: modelSelect.value
+                })
+            });
+            
+            if (!res.ok) {
+                throw new Error('Verification failed');
+            }
+            
+            return await res.json();
+        }
+
+        function fmtNum(x, digits = 4) {
+            if (x === null || x === undefined) return '—';
+            const n = Number(x);
+            if (!isFinite(n)) return '—';
+            return n.toFixed(digits);
+        }
+
+        function renderAblationTable(fileData) {
+            const results = fileData.results || [];
+            const header = `
+                <table class="exp-table">
+                    <thead>
+                        <tr>
+                            <th>Config</th>
+                            <th>Precision</th>
+                            <th>Recall</th>
+                            <th>F1</th>
+                            <th>Accuracy</th>
+                            <th>TP/FP/TN/FN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            const rows = results.map(r => {
+                const cfg = r.config || {};
+                const m = r.metrics || {};
+                const counts = m.counts || {};
+                const tp = counts.tp ?? 0;
+                const fp = counts.fp ?? 0;
+                const tn = counts.tn ?? 0;
+                const fn = counts.fn ?? 0;
+                return `
+                    <tr>
+                        <td>${escapeHtml(cfg.name || '')}</td>
+                        <td>${fmtNum(m.precision, 3)}</td>
+                        <td>${fmtNum(m.recall, 3)}</td>
+                        <td>${fmtNum(m.f1, 3)}</td>
+                        <td>${fmtNum(m.accuracy, 3)}</td>
+                        <td>${tp}/${fp}/${tn}/${fn}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            return header + rows + `
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function renderSelfConsistencyTable(fileData) {
+            const results = fileData.results || [];
+            const header = `
+                <table class="exp-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Expected</th>
+                            <th>Majority Pred</th>
+                            <th>Majority Agreement</th>
+                            <th>Verified Claim Jaccard</th>
+                            <th>Mean Verified Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            const rows = results.map(r => {
+                const m = r.metrics || {};
+                return `
+                    <tr>
+                        <td>${escapeHtml(r.id || '')}</td>
+                        <td>${r.expected_response_verified ? 'Yes' : 'No'}</td>
+                        <td>${r.majority_predicted_verified ? 'Yes' : 'No'}</td>
+                        <td>${fmtNum(m.verdict_majority_agreement, 3)}</td>
+                        <td>${fmtNum(m.claim_verified_jaccard_avg, 3)}</td>
+                        <td>${m.mean_verified_confidence === null || m.mean_verified_confidence === undefined ? '—' : fmtNum(m.mean_verified_confidence, 3)}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            return header + rows + `
+                    </tbody>
+                </table>
+            `;
+        }
+
+        async function loadExperiments() {
+            experimentsStatus.textContent = "Loading...";
+            experimentsContent.innerHTML = "";
+            experimentsPanel.style.display = "block";
+
+            try {
+                const listRes = await fetch(EXP_LIST_URL);
+                if (!listRes.ok) throw new Error("Could not load experiment list");
+                const listJson = await listRes.json();
+                const files = listJson.files || [];
+
+                if (!files.length) {
+                    experimentsContent.innerHTML = `<div style="color:#90a0b8; font-size:0.85rem;">No JSON files found in data/results/.</div>`;
+                    experimentsStatus.textContent = "No experiments";
+                    return;
+                }
+
+                const toLoad = files.slice(0, 8);
+                const payloads = await Promise.all(
+                    toLoad.map(async (f) => {
+                        const r = await fetch(`${EXP_FILE_URL}?name=${encodeURIComponent(f.name)}`);
+                        if (!r.ok) throw new Error("Failed to load: " + f.name);
+                        const j = await r.json();
+                        return j;
+                    })
+                );
+
+                const blocks = payloads.map(p => {
+                    const cat = p.category || "";
+                    const name = p.name || "";
+                    if (cat === "ablation") {
+                        return `
+                            <div class="exp-section">
+                                <div class="exp-key"><span class="dot"></span>${escapeHtml(name)}</div>
+                                ${renderAblationTable(p.data || {})}
+                            </div>
+                        `;
+                    }
+                    if (cat === "self_consistency") {
+                        return `
+                            <div class="exp-section">
+                                <div class="exp-key"><span class="dot amber"></span>${escapeHtml(name)}</div>
+                                ${renderSelfConsistencyTable(p.data || {})}
+                            </div>
+                        `;
+                    }
+                    return `
+                        <div class="exp-section">
+                            <div class="exp-key"><span class="dot"></span>${escapeHtml(name)}</div>
+                            <pre style="white-space: pre-wrap; word-break: break-word; color:#90a0b8; font-size:0.75rem;">${escapeHtml(JSON.stringify(p.data || {}, null, 2))}</pre>
+                        </div>
+                    `;
+                }).join('');
+
+                experimentsContent.innerHTML = blocks;
+                experimentsStatus.textContent = `Loaded ${payloads.length} file(s)`;
+            } catch (e) {
+                experimentsStatus.textContent = "Failed to load experiments";
+                experimentsContent.innerHTML = `<div style="color:#ff6b6b; font-size:0.85rem;">${escapeHtml(e.message || String(e))}</div>`;
+            }
+        }
+
+        async function verifyCompareResponse(question, response) {
+            const res = await fetch('http://localhost:8000/verify_compare', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    question: question,
+                    response: response,
+                    model_used: modelSelect.value
+                })
+            });
+
+            if (!res.ok) {
+                throw new Error('Compare verification failed');
+            }
+
+            return await res.json();
+        }
+
+        function getVerdictColor(verdict) {
+            return verdict === '✅ FULLY CORRECT' ? '#4ecdc4' :
+                   verdict === '⚠️ PARTIALLY CORRECT' ? '#ffa500' : '#ff6b6b';
+        }
+
+        function escapeHtml(text) {
+            return String(text || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        // Add message to chat
+        function addMessage(type, content) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message';
+            
+            const bubble = document.createElement('div');
+            bubble.className = type === 'question' ? 'question' : 'answer';
+            bubble.innerHTML = content.replace(/\n/g, '<br>');
+            
+            messageDiv.appendChild(bubble);
+            chatArea.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            chatArea.scrollTop = chatArea.scrollHeight;
+            
+            return messageDiv;
+        }
+
+        // Add loading message
+        function addLoadingMessage() {
+            const id = 'loading-' + Date.now();
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message';
+            messageDiv.id = id;
+            
+            const bubble = document.createElement('div');
+            bubble.className = 'answer';
+            bubble.innerHTML = '<span class="loading"></span> Thinking...';
+            
+            messageDiv.appendChild(bubble);
+            chatArea.appendChild(messageDiv);
+            chatArea.scrollTop = chatArea.scrollHeight;
+            
+            return id;
+        }
+
+        // Remove loading message
+        function removeLoadingMessage(id) {
+            const loadingMsg = document.getElementById(id);
+            if (loadingMsg) {
+                loadingMsg.remove();
+            }
+        }
+
+        // Add verification to existing message
+        function addVerificationToMessage(messageDiv, verification) {
+            const verificationDiv = document.createElement('div');
+            verificationDiv.className = 'verification';
+            
+            // Overall verdict
+            const verdictColor = getVerdictColor(verification.verdict);
+            
+            verificationDiv.innerHTML = `
+                <div class="verification-header">
+                    <span class="verification-title">🔍 Verification Result</span>
+                    <span style="color: ${verdictColor};">${verification.verdict}</span>
+                </div>
+                <div class="verification-sub">
+                    ${verification.verified_claims}/${verification.total_claims} claims verified (${verification.accuracy}%)
+                </div>
+                <div class="stats-row">
+                    <div class="stat-chip">Model: ${escapeHtml(verification.model_used)}</div>
+                    <div class="stat-chip">Claims: ${verification.total_claims}</div>
+                    <div class="stat-chip">Verified: ${verification.verified_claims}</div>
+                    <div class="stat-chip">Accuracy: ${verification.accuracy}%</div>
+                </div>
+                <div style="margin-top: 10px;">
+                    ${verification.claims.map(claim => `
+                        <div class="claim-card ${claim.verified ? 'verified' : 'not-verified'}">
+                            <div class="claim-text">📝 ${claim.claim.substring(0, 100)}${claim.claim.length > 100 ? '...' : ''}</div>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" style="width: ${claim.confidence}%; background: ${claim.confidence >= 60 ? '#4ecdc4' : claim.confidence >= 40 ? '#ffa500' : '#ff6b6b'};"></div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.7rem;">
+                                <span>Confidence: ${claim.confidence}%</span>
+                                <span>${claim.reason}</span>
+                            </div>
+                            <div class="sources-row">
+                                ${(claim.sources_used && claim.sources_used.length ? claim.sources_used : ['unknown']).map(src => `
+                                    <span class="source-chip ${src === 'unknown' ? 'neutral' : ''}">${escapeHtml(src)}</span>
+                                `).join('')}
+                                ${claim.semantic_score !== null && claim.semantic_score !== undefined ? `
+                                    <span class="source-chip neutral">semantic: ${Number(claim.semantic_score).toFixed(3)}</span>
+                                ` : ''}
+                            </div>
+                            ${claim.nyaya ? `
+                                <div class="nyaya-badge" style="background: ${claim.nyaya.color}20; color: ${claim.nyaya.color};">
+                                    ${claim.nyaya.icon} ${claim.nyaya.sutra}: ${claim.nyaya.description}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            messageDiv.appendChild(verificationDiv);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function addVerificationCompareToMessage(messageDiv, comparePayload) {
+            const hybrid = comparePayload.hybrid || {};
+            const lexical = comparePayload.lexical_only || {};
+            const hybridColor = getVerdictColor(hybrid.verdict || '');
+            const lexicalColor = getVerdictColor(lexical.verdict || '');
+            const delta = Number((hybrid.accuracy || 0) - (lexical.accuracy || 0)).toFixed(1);
+
+            const verificationDiv = document.createElement('div');
+            verificationDiv.className = 'verification';
+            verificationDiv.innerHTML = `
+                <div class="verification-header">
+                    <span class="verification-title">📊 Compare Mode (Hybrid vs Lexical)</span>
+                    <span style="color: #8fa3c4;">Δ Accuracy: ${delta}%</span>
+                </div>
+                <div class="compare-grid">
+                    <div class="compare-card">
+                        <h4>Hybrid (Wikipedia + Wikidata + Semantic)</h4>
+                        <div class="compare-line" style="color:${hybridColor}; margin-bottom: 4px;">${escapeHtml(hybrid.verdict || 'N/A')}</div>
+                        <div class="compare-line">Verified claims: ${hybrid.verified || 0}/${hybrid.total || 0}</div>
+                        <div class="compare-line">Accuracy: ${hybrid.total ? Number((hybrid.verified / hybrid.total) * 100).toFixed(1) : 0}%</div>
+                    </div>
+                    <div class="compare-card">
+                        <h4>Lexical Only (baseline)</h4>
+                        <div class="compare-line" style="color:${lexicalColor}; margin-bottom: 4px;">${escapeHtml(lexical.verdict || 'N/A')}</div>
+                        <div class="compare-line">Verified claims: ${lexical.verified || 0}/${lexical.total || 0}</div>
+                        <div class="compare-line">Accuracy: ${lexical.total ? Number((lexical.verified / lexical.total) * 100).toFixed(1) : 0}%</div>
+                    </div>
+                </div>
+            `;
+
+            messageDiv.appendChild(verificationDiv);
+            if (hybrid && hybrid.results) {
+                addVerificationToMessage(messageDiv, {
+                    model_used: comparePayload.model_used || modelSelect.value,
+                    verdict: hybrid.verdict,
+                    verified_claims: hybrid.verified || 0,
+                    total_claims: hybrid.total || 0,
+                    accuracy: hybrid.total ? Number((hybrid.verified / hybrid.total) * 100).toFixed(1) : 0,
+                    claims: hybrid.results || [],
+                });
+            }
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        // Add verification error
+        function addVerificationError(messageDiv, error) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'verification';
+            errorDiv.style.borderLeft = '4px solid #ff6b6b';
+            errorDiv.innerHTML = `
+                <div style="color: #ff6b6b;">
+                    <strong>⚠️ Verification Error</strong><br>
+                    ${error}
+                </div>
+            `;
+            messageDiv.appendChild(errorDiv);
+        }
+
+        // Handle Enter key
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendQuestion();
+            }
+        }
+    </script>
+</body>
+</html>

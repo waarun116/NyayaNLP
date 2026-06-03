@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NyayaNLP — Hallucination Detection</title>
+  <meta name="description" content="NyayaNLP detects and verifies hallucinations in LLM responses with Nyaya-inspired explainability." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background intentionally kept minimal for a clean ChatGPT-like template. -->
+
+  <header class="header">
+    <div class="header-left">
+      <button class="theme-toggle" id="themeToggleBtn" type="button" title="Toggle dark/light mode">
+        <span id="themeToggleLabel">Dark</span>
+      </button>
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true">न्या</span>
+        <span class="logo-text">NyayaNLP</span>
+      </div>
+      <span class="badge">Hallucination Detection • Explainable</span>
+    </div>
+
+    <div class="header-right">
+      <div class="status">
+        <span class="status-dot"></span>
+        <span class="status-text">System Online</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-title">Controls</div>
+
+        <div class="row">
+          <label class="field-label" for="modelSelect">Model</label>
+          <select id="modelSelect">
+            <option value="llama3">Llama 3</option>
+            <option value="mistral">Mistral</option>
+            <option value="phi">Phi-3</option>
+          </select>
+        </div>
+
+        <!-- Compare mode removed to simplify UX and avoid endpoint mismatch -->
+
+        <div class="row toggle-row">
+          <label class="compare-label" title="Off = clean summary; on = full claim cards and metrics">
+            <input type="checkbox" id="expertUiToggle" />
+            Detailed verification view
+          </label>
+        </div>
+
+        <div class="row">
+          <button class="btn-secondary" id="exportLastBtn" type="button" disabled title="Download last verification JSON">
+            Export last result
+          </button>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="panel-title" style="margin-bottom:8px;">About detection</div>
+        <div class="subtle" style="color: var(--muted); line-height:1.55;">
+          Claims are checked against Wikipedia and structured sources. Enable <b>Detailed verification</b> for per-claim detail.
+        </div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="chat-wrap">
+        <div class="chat-area" id="chatArea"></div>
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="questionInput"
+          placeholder="Ask a question. I will generate an answer and run hallucination detection."
+          autocomplete="off"
+        />
+        <button class="btn-secondary" id="sendBtn" type="button">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
