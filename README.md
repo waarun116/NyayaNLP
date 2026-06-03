@@ -112,4 +112,23 @@ git push -u origin main
 
 ## License
 
-Add your institute/project license here if required for submission.
+## License
+
+MIT License — Free for academic and research use.
+
+## Authors
+
+| Name | Role | Affiliation |
+|------|------|-------------|
+| **Dr. G. Vanitha** | Associate Professor | CBIT, Hyderabad |
+| **Tetali Waarun Sai Krishna Reddy** | PG Student | CBIT, Hyderabad |
+
+## Citation
+
+```bibtex
+@misc{nyayanlp2025,
+  title={NyayaNLP: Explainable Hallucination Detection for LLMs},
+  author={Vanitha, G. and Reddy, Tetali Waarun Sai Krishna},
+  year={2025},
+  url={https://github.com/waarun116/NyayaNLP}
+}
